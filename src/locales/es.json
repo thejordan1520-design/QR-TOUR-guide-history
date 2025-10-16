@@ -1,0 +1,1164 @@
+{
+  "forms": {
+    "placeholders": {
+      "full_name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "age": "Edad",
+      "participants": "Número de participantes",
+      "special_requests": "Solicitudes especiales",
+      "emergency_contact": "Contacto de emergencia",
+      "emergency_phone": "Teléfono de emergencia"
+    },
+    "labels": {
+      "full_name": "Nombre Completo",
+      "email": "Email",
+      "phone": "Teléfono",
+      "age": "Edad",
+      "participants": "Participantes",
+      "reservation_date": "Fecha de Reservación",
+      "reservation_time": "Hora de Reservación",
+      "special_requests": "Solicitudes Especiales",
+      "emergency_contact": "Contacto de Emergencia",
+      "emergency_phone": "Teléfono de Emergencia"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar Reserva",
+      "saving": "Guardando...",
+      "retry": "Reintentar"
+    },
+    "messages": {
+      "success": "¡Reservación confirmada! Te hemos enviado un email de confirmación.",
+      "connection_error": "Error de conexión. Por favor, verifica tu conexión a internet e inténtalo de nuevo.",
+      "duplicate_error": "Ya existe una reservación con estos datos. Por favor, verifica la información.",
+      "unknown_error": "Error al crear la reservación: {{error}}",
+      "loading_excursions": "Cargando excursiones...",
+      "form_title": "Reservar Excursión"
+    },
+    "validation": {
+      "required": "Este campo es requerido",
+      "invalid_email": "Por favor, ingresa un email válido",
+      "invalid_phone": "Por favor, ingresa un número de teléfono válido",
+      "min_participants": "Debe haber al menos 1 participante",
+      "max_participants": "Máximo 10 participantes"
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "subscribe": "Suscribirse",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "profile": "Perfil"
+  },
+  "profile": {
+    "guest": "Invitado",
+    "no_email": "Sin correo",
+    "premium_user": "Usuario Premium",
+    "plan_progress": "Progreso del Plan",
+    "plan_progress_count": "{{used}}/{{total}} usados",
+    "upgrade_plan": "Actualizar Plan",
+    "medals": "Medallas",
+    "no_medals_yet": "Aún no tienes medallas",
+    "level": "Nivel",
+    "ranking": "Ranking",
+    "destinations_visited": "Destinos Visitados",
+    "tours_completed": "Tours Completados",
+    "account": "Cuenta",
+    "subscription_and_plans": "Suscripción y Planes",
+    "account_settings": "Configuración de Cuenta",
+    "feedback_suggestions": "Feedback y Sugerencias",
+    "preferences": "Preferencias",
+    "language": "Idioma",
+    "dark_mode": "Modo Oscuro",
+    "offline_mode": "Modo Sin Conexión",
+    "offline_mode_premium_only": "Modo sin conexión solo para usuarios premium",
+    "help_center": "Centro de Ayuda",
+    "version": "Versión {{version}}",
+    "logout": "Cerrar Sesión",
+    "edit_profile": "Editar Perfil",
+    "personal_data": "Datos Personales",
+    "full_name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "save_changes": "Guardar Cambios",
+    "profile_details_updated": "Datos del perfil actualizados",
+    "profile_details_update_error": "Error al actualizar los datos del perfil",
+    "change_password": "Cambiar Contraseña",
+    "current_password": "Contraseña Actual",
+    "new_password": "Nueva Contraseña",
+    "repeat_new_password": "Repetir Nueva Contraseña",
+    "update_password": "Actualizar Contraseña",
+    "passwords_do_not_match": "Las contraseñas no coinciden",
+    "password_updated_successfully": "Contraseña actualizada exitosamente",
+    "error_updating_password": "Error al actualizar la contraseña",
+    "network_error": "Error de red",
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "registration_email": "Correo de Registro",
+    "request_temporary_password": "Solicitar Contraseña Temporal",
+    "temporary_password_generated": "Contraseña temporal generada",
+    "could_not_generate_temporary_password": "No se pudo generar la contraseña temporal",
+    "temporary_password": "Contraseña Temporal",
+    "simulated_email_message": "Este es un mensaje simulado por email",
+    "back_to_change_password": "Volver a cambiar contraseña",
+    "qr_history_title": "Historial de Códigos QR",
+    "qr_history_place": "Lugar",
+    "qr_history_datetime": "Fecha y Hora",
+    "qr_history_map": "Ver en Mapa",
+    "qr_history_view_map": "Ver Mapa",
+    "profile_subscriptions_history_title": "Historial de Suscripciones",
+    "profile_subscriptions_history_plan": "Plan",
+    "profile_subscriptions_history_start": "Inicio",
+    "profile_subscriptions_history_end": "Fin",
+    "profile_subscriptions_history_amount": "Monto",
+    "profile_subscriptions_history_status": "Estado",
+    "upgrade_plan_title": "Actualizar Plan",
+    "upgrade_plan_description": "¿Quieres acceder a más beneficios? Cambia tu plan fácilmente.",
+    "improve_plan": "Mejorar Plan",
+    "change_account": "Cambiar Cuenta",
+    "manage_password_external": "Gestionar Contraseña (Externo)",
+    "select_language": "Seleccionar Idioma",
+    "medal_explorador": "Medalla de Explorador",
+    "medal_curioso": "Medalla de Curioso",
+    "medal_viajero": "Medalla de Viajero",
+    "medal_experto": "Medalla de Experto",
+    "download_audios": "Descargar Audios",
+    "download_map": "Descargar Mapa",
+    "download_images": "Descargar Imágenes",
+    "downloading": "Descargando",
+    "download_audios_success": "Audios descargados exitosamente",
+    "download_audios_error": "Error al descargar audios: {{error}}",
+    "download_images_success": "Imágenes descargadas exitosamente",
+    "download_images_error": "Error al descargar imágenes: {{error}}",
+    "download_map_success": "Mapa descargado exitosamente",
+    "change_language": "Cambiar Idioma",
+    "legal": "Legal",
+    "legal_information": "Información Legal",
+    "terms_of_use": "Términos de Uso",
+    "privacy_policy": "Política de Privacidad",
+    "open_source_license": "Licencia de Código Abierto",
+    "terms_description": "Condiciones y términos de servicio",
+    "privacy_description": "Cómo protegemos tu información",
+    "license_description": "Información sobre licencias (limitado)",
+    "common": {
+      "back": "Volver",
+      "cancel": "Cancelar"
+    }
+  },
+  "home": {
+    "hero_title": "Descubre la Historia",
+    "hero_subtitle": "de Puerto Plata",
+    "hero_desc": "Explora los lugares más emblemáticos de Puerto Plata con nuestra guía de audio interactiva. Escanea códigos QR y sumérgete en la rica historia de esta hermosa ciudad caribeña.",
+    "start_tour": "Comenzar Tour",
+    "main_features": "Características Principales",
+    "main_features_desc": "Descubre todo lo que nuestra plataforma tiene para ofrecerte",
+    "easy_access": "Acceso Fácil",
+    "easy_access_desc": "Escanea códigos QR para acceder instantáneamente a contenido exclusivo",
+    "see_instructions": "Ver instrucciones",
+    "premium_audio": "Audios Premium",
+    "premium_audio_desc": "Narraciones profesionales en múltiples idiomas",
+    "see_audio_library": "Ver biblioteca",
+    "map_locations": "Mapa de Ubicaciones",
+    "map_locations_desc": "Encuentra todos los puntos de interés en un mapa interactivo",
+    "see_services": "Ver servicios",
+    "services_restaurants": "Servicios y Restaurantes",
+    "services_restaurants_desc": "Encuentra restaurantes, supermercados, taxis, guías y más servicios locales",
+    "listen_audio": "Escuchar audio",
+    "access_24h": "Acceso 24h",
+    "access_24h_desc": "Contenido disponible las 24 horas del día",
+    "travel_alarm_title": "Alarma de Viaje",
+    "travel_alarm_desc": "Configura alertas para no perder tu transporte de regreso",
+    "login_required_alarm": "Inicia sesión para activar la alarma",
+    "activate": "Activar",
+    "alarm_time_limit": "Hora límite para regresar",
+    "search_flight_cruise": "Buscar mi vuelo o crucero",
+    "alarm_distance": "Distancia para alerta (km)",
+    "activate_alarm": "Activar Alarma",
+    "cancel": "Cancelar",
+    "alarm_active": "Alarma Activa",
+    "time_remaining": "Tiempo restante",
+    "edit": "Editar",
+    "popular_locations_title": "Lugares Populares",
+    "popular_locations_desc": "Descubre los lugares más visitados y emocionantes de Puerto Plata.",
+    "audio_button": "Audio",
+    "see_more": "Ver más",
+    "testimonials_title": "Testimonios",
+    "testimonials_desc": "Lo que dicen nuestros usuarios sobre su experiencia.",
+    "audio_available": "Audios Disponibles",
+    "countries_covered": "+ lugares cubiertos",
+    "read_more": "Ver más",
+    "testimonial_title": "Testimonio",
+    "join_community": "Únete a Nuestra Comunidad",
+    "discover_more_content": "Descubre más lugares, audios y experiencias. Únete a nuestra comunidad para acceder a contenido exclusivo.",
+    "subscribe_now": "Suscribirse Ahora",
+    "audio_denied_message": "Parece que no tienes un plan de suscripción. Por favor, suscríbete para acceder a todas las funciones.",
+    "see_qr_map": "Ver Mapa QR"
+  },
+  "footer": {
+    "description": "Descubre la historia y cultura de Puerto Plata a través de códigos QR interactivos. Tu guía QR Tour personal.",
+    "contact": "Contacto",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Soporte Técnico",
+    "immediate_response": "Respuesta Inmediata",
+    "faq": "Preguntas Frecuentes",
+    "all_rights_reserved": "© 2025 Todos los derechos reservados",
+    "terms_of_service": "Términos de Servicio",
+    "privacy_policy": "Política de Privacidad"
+  },
+  "faq": {
+    "how_to_use_qr": "¿Cómo usar los códigos QR?",
+    "how_to_use_qr_description": "Simplemente escanea el código QR con tu cámara del teléfono y accede instantáneamente a información detallada y audios informativos.",
+    "access_duration": "¿Cuánto tiempo dura el acceso?",
+    "access_duration_description": "El acceso depende de tu plan de suscripción. Los planes básicos tienen acceso limitado, mientras que los premium ofrecen acceso completo 24/7.",
+    "available_languages": "¿En qué idiomas están disponibles los audios?",
+    "available_languages_description": "Actualmente ofrecemos audios en español, inglés y francés. Estamos trabajando para agregar más idiomas.",
+    "technical_issues": "¿Qué hacer si tengo problemas técnicos?",
+    "technical_issues_description": "Si experimentas algún problema, contacta nuestro soporte técnico a través de WhatsApp o email. Respondemos en menos de 24 horas.",
+    "how_long_access": "¿Cuánto tiempo tengo acceso?",
+    "how_long_access_description": "El acceso dura el tiempo de tu suscripción activa. Puedes renovarla en cualquier momento."
+  },
+  "audio": {
+    "loading": "Cargando audio...",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "demoLimit": "Demo limitado",
+    "fullAudio": "audio completo",
+    "freeEnded": {
+      "title": "Demo terminado",
+      "description": "Has escuchado los primeros 10 segundos. Suscríbete para escuchar el audio completo. ¡Obtén acceso ilimitado a todos los audios por 24 horas por solo $5 USD!",
+      "button": "Suscribirse ahora - $5 USD",
+      "morePlans": "Ver más planes"
+    }
+  },
+  "audioLibrary": {
+    "title": "Biblioteca de Audio",
+    "subtitle": "Explora la historia de Puerto Plata a través de narraciones profesionales en múltiples idiomas",
+    "history": "Historia",
+    "demoNotice": "Demo limitado - Suscríbete para acceso completo",
+    "premiumTitle": "Acceso Premium Requerido",
+    "premiumMsg": "Para acceder a todos los audios y contenido completo, necesitas una suscripción premium.",
+    "premiumBtn": "Suscribirse Ahora",
+    "languages": {
+      "spanish": "Español",
+      "english": "English",
+      "french": "Français"
+    },
+    "narrations": "Narraciones",
+    "audio": "Audio",
+    "close": "Cerrar",
+    "viewDetails": "Ver Detalles",
+    "exploreHistory": "Explorar Historia",
+    "defaultDuration": "1-2.3 min",
+    "click_to_play": "Haz clic para reproducir",
+    "audio_not_available": "Audio no disponible"
+  },
+  "location": {
+    "audioGuide": "Guía de Audio",
+    "narration": "Narración en",
+    "minutes": "minutos",
+    "viewMore": "Ver más detalles",
+    "history": "Historia",
+    "curiosities": "Curiosidades",
+    "directions": "Cómo llegar",
+    "gallery": "Galería",
+    "locationInfo": "Información del Lugar",
+    "duration_label": "Duración",
+    "rating_label": "Calificación",
+    "quickActions": "Acciones Rápidas",
+    "viewOnMaps": "Ver en Mapas",
+    "share": "Compartir",
+    "link_copied": "Enlace copiado al portapapeles"
+  },
+  "qrMap": {
+    "title": "Mapa de Códigos QR",
+    "subtitle": "Puerto Plata - Lugares Turísticos",
+    "searchPlaceholder": "Buscar lugar...",
+    "categoryFilter": "Filtrar por categoría",
+    "allCategories": "Todas las categorías",
+    "ratingFilter": "Filtro de calificación",
+    "availableLocations": "Lugares disponibles",
+    "search_placeholder": "Buscar lugares...",
+    "filters": "Filtros",
+    "all_ratings": "Todas las calificaciones",
+    "rating_4_plus": "4★ o más",
+    "rating_4_5_plus": "4.5★ o más",
+    "rating_5": "5★",
+    "all_status": "Todos los estados",
+    "open": "Abiertos",
+    "closed": "Cerrados",
+    "all_categories": "Todas las categorías",
+    "sort_by_name": "Ordenar por nombre",
+    "sort_by_rating": "Ordenar por calificación",
+    "show_favorites": "Solo favoritos",
+    "show_all": "Mostrar todos",
+    "places_found": "lugares encontrados",
+    "place_found": "lugar encontrado",
+    "view_on_map": "Ver en mapa",
+    "places_available": "lugares disponibles",
+    "favorites": "favoritos",
+    "loading_map": "Cargando mapa...",
+    "error_loading_map": "Error al cargar el mapa de códigos QR",
+    "categories": {
+      "historico": "Histórico",
+      "cultural": "Cultural",
+      "recreativo": "Recreativo",
+      "religioso": "Religioso",
+      "natural": "Natural"
+    },
+    "status": {
+      "open": "Abierto",
+      "closed": "Cerrado"
+    }
+  },
+    "subscribe": {
+      "title": "Suscribirse",
+      "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+      "hideDetails": "Ocultar Detalles",
+      "experience": "Disfruta de una experiencia turística única con códigos QR interactivos",
+      "plans": "Planes",
+      "price": "Precios",
+      "usd": "USD",
+      "features": {
+        "unlimited": "Acceso Ilimitado",
+        "quality": "Audio de Alta Calidad",
+        "languages": "Múltiples Idiomas",
+        "support": "Soporte 24/7"
+      },
+      "mostPopular": "Más Popular",
+      "popular": "Popular",
+      "hours": "horas",
+      "selectedPlan": "Plan Seleccionado",
+      "selectPlan": "Seleccionar Plan",
+      "moreFeatures": "más características",
+      "paymentSuccess": "¡Pago exitoso! Tu suscripción ha sido activada.",
+      "paymentError": "Error en el pago. Por favor, inténtalo de nuevo.",
+      "creditCard": "Tarjeta de Crédito",
+      "creditCardDescription": "Paga con Visa, Mastercard, American Express y más",
+      "paypal": "PayPal",
+      "paypalDescription": "Pago rápido y seguro con tu cuenta PayPal",
+      "plansData": {
+        "basic": {
+          "name": "Acceso Básico",
+          "features": [
+            "Acceso completo por 24 horas",
+            "Todos los tours disponibles",
+            "Audio de alta calidad",
+            "Soporte WhatsApp",
+            "Acceso desde cualquier dispositivo"
+          ]
+        },
+        "weekly": {
+          "name": "Plan Semanal",
+          "features": [
+            "Acceso completo por 1 semana",
+            "Todos los tours disponibles",
+            "Audio de alta calidad",
+            "Soporte prioritario 24/7",
+            "Acceso desde cualquier dispositivo",
+            "Descargas offline",
+            "Contenido exclusivo"
+          ]
+        },
+      "guide": {
+        "name": "Plan Guía Turístico",
+        "features": [
+          "Acceso completo por 1 mes",
+          "Todos los tours disponibles",
+          "Audio de alta calidad",
+          "Soporte prioritario 24/7",
+          "Acceso desde cualquier dispositivo",
+          "Descargas offline",
+          "Contenido exclusivo",
+          "Panel de guía turístico",
+          "Estadísticas de uso",
+          "Acceso a material educativo"
+        ]
+      },
+      "elite": {
+        "name": "Plan Elite",
+        "features": [
+          "Acceso completo por 1 año",
+          "Todos los tours disponibles",
+          "Audio de alta calidad",
+          "Soporte VIP 24/7",
+          "Acceso desde cualquier dispositivo",
+          "Descargas offline",
+          "Contenido exclusivo",
+          "Panel de guía turístico",
+          "Estadísticas de uso",
+          "Acceso a material educativo",
+          "Sesiones personalizadas",
+          "Certificaciones oficiales"
+        ]
+      }
+    },
+    "fullNameLabel": "Nombre Completo",
+    "fullNamePlaceholder": "Ingresa tu nombre completo",
+    "fullNameAutocomplete": "Nombre detectado automáticamente",
+    "qrCodeRequirement": "Necesitas visitar al menos 40 códigos QR para obtener el certificado",
+    "paymentInfoTitle": "Información de Pago",
+    "duration": {
+      "week": "1 semana",
+      "month": "1 mes"
+    },
+    "timeLeft": {
+      "remaining": "Tiempo restante",
+      "days": "día",
+      "hours": "hora",
+      "minutes": "minuto"
+    },
+    "paymentMethodsTitle": "Métodos de Pago",
+    "paymentMethods": "Métodos de Pago",
+    "creditCard": "Tarjeta de Crédito",
+    "creditCardDescription": "Paga con Visa, Mastercard, American Express y más",
+    "paypal": "PayPal",
+    "paypalDescription": "Pago rápido y seguro con tu cuenta PayPal",
+    "payment": {
+      "title": "Información de Pago",
+      "planDetails": "Detalles del plan",
+      "oneTime": "Pago único",
+      "features": "Características incluidas",
+      "moreFeatures": "características más",
+      "selectMethod": "Selecciona método de pago",
+      "paypal": {
+        "description": "Pago rápido y seguro con tu cuenta PayPal"
+      },
+      "success": {
+        "title": "¡Pago Exitoso!",
+        "message": "Tu suscripción ha sido activada correctamente."
+      },
+      "error": {
+        "title": "Error en el Pago",
+        "message": "Hubo un problema procesando tu pago. Inténtalo de nuevo."
+      },
+      "secure": "Pago seguro",
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad"
+    },
+    "cardNumberLabel": "Número de Tarjeta",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expirationDateLabel": "Fecha de Vencimiento",
+    "expirationDatePlaceholder": "MM/AA",
+    "cvvLabel": "CVV",
+    "cvvPlaceholder": "123",
+    "cardholderNameLabel": "Nombre del Titular",
+    "cardholderNamePlaceholder": "Nombre como aparece en la tarjeta",
+    "emailLabel": "Dirección de Email",
+    "emailPlaceholder": "tu@email.com",
+    "cta": "Suscribirse Ahora",
+    "processingPayment": "Procesando Pago...",
+    "securityInfo": "Pago seguro con encriptación SSL",
+    "moreFeatures": "más características",
+    "paymentError": "Error de pago",
+    "tryAgainOrContact": "Intenta de nuevo o contacta soporte",
+    "paymentSuccess": "Pago procesado exitosamente",
+    "popular": "Popular"
+  },
+  "payment": {
+    "title": "Pago",
+    "planDetails": "Detalles del plan seleccionado",
+    "oneTime": "Pago único",
+    "features": "Características incluidas",
+    "moreFeatures": "más características",
+    "selectMethod": "Seleccionar método de pago",
+    "card": {
+      "title": "Tarjeta de Crédito/Débito",
+      "subtitle": "Visa, Mastercard, American Express",
+      "description": "Pago seguro con tarjeta procesado por PayPal"
+    },
+    "paypal": {
+      "title": "Cuenta PayPal",
+      "subtitle": "Pago rápido y seguro",
+      "description": "Paga con tu cuenta PayPal"
+    },
+    "loadingPayPal": "Cargando PayPal...",
+    "success": {
+      "title": "¡Pago Exitoso!",
+      "message": "Tu suscripción ha sido activada. Recibirás un email de confirmación."
+    },
+    "error": {
+      "title": "Error de Pago",
+      "message": "Hubo un problema procesando tu pago. Por favor, intenta de nuevo."
+    },
+    "tryAgain": "Intentar de nuevo",
+    "secure": "Pago seguro",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "pay": "Pagar ahora",
+    "processing": "Procesando pago..."
+  },
+  "map": {
+    "loading": "Cargando mapa...",
+    "start_route": "Iniciar ruta",
+    "stop_route": "Detener ruta",
+    "view_details": "Ver detalles",
+    "your_location": "Tu ubicación"
+  },
+  "locations": {
+    "sombrilla-001": {
+      "name": "Calle de la Sombrilla",
+      "description": "Calle peatonal artística colorida",
+      "history": "La Calle de las Sombrillas es una instalación artística vibrante que transforma una calle ordinaria en un túnel de colores. Cientos de sombrillas multicolores cuelgan arriba, creando un espectáculo visual único que simboliza la alegría y creatividad del pueblo dominicano."
+    },
+    "rosada-002": {
+      "name": "Calle Rosada",
+      "description": "Una calle pintada de rosa con encanto colonial",
+      "history": "El Patio de Doña Blanca, conocido como la Calle Rosada, es una joya arquitectónica colonial que data del siglo XVI. Sus paredes pintadas de rosa pastel y su arquitectura española perfectamente conservada la convierten en una de las calles más fotografiadas de Puerto Plata."
+    },
+    "ambar-003": {
+      "name": "Museo del Ámbar",
+      "description": "Museo dedicado al ámbar dominicano",
+      "history": "El Museo del Ámbar alberga una de las colecciones más importantes de ámbar del mundo, incluyendo piezas con insectos y plantas fosilizados de hace millones de años. El ámbar dominicano es considerado uno de los más valiosos del mundo por su pureza y color."
+    },
+    "letrero-puerto-plata": {
+      "name": "Letrero Puerto Plata",
+      "description": "El icónico letrero de bienvenida",
+      "history": "El letrero de Puerto Plata es un símbolo icónico de la ciudad que da la bienvenida a los visitantes. Ubicado estratégicamente, es uno de los puntos más fotografiados de la ciudad y representa el orgullo de los puertoplateños."
+    },
+    "calle-de-las-sombrillas": {
+      "name": "Calle de las Sombrillas",
+      "description": "Calle peatonal artística colorida",
+      "history": "La Calle de las Sombrillas es una instalación artística vibrante que transforma una calle ordinaria en un túnel de colores. Cientos de sombrillas multicolores cuelgan arriba, creando un espectáculo visual único que simboliza la alegría y creatividad del pueblo dominicano."
+    },
+    "fortaleza-san-felipe": {
+      "name": "Fortaleza San Felipe",
+      "description": "Fortaleza histórica del siglo XVI",
+      "history": "La Fortaleza San Felipe fue construida en el siglo XVI por los españoles para proteger el puerto de Puerto Plata de los ataques piratas. Sus gruesos muros de coral y cañones estratégicamente ubicados la convirtieron en una defensa impenetrable durante más de tres siglos."
+    },
+    "teleferico-puerto-plata": {
+      "name": "Teleférico de Puerto Plata",
+      "description": "El único teleférico del Caribe",
+      "history": "El Teleférico de Puerto Plata es el único funicular en el Caribe y ofrece vistas panorámicas impresionantes de la ciudad y el Océano Atlántico. Sube hasta el Pico Isabel de Torres, donde encontrarás jardines botánicos y una estatua del Cristo Redentor."
+    },
+    "catedral-san-felipe": {
+      "name": "Catedral San Felipe",
+      "description": "Catedral histórica de Puerto Plata",
+      "history": "La Catedral San Felipe es un ejemplo de la arquitectura religiosa colonial y un punto central de la ciudad. Construida en el siglo XVI, ha sido testigo de la historia de Puerto Plata y continúa siendo un lugar de culto y peregrinación."
+    },
+    "cristo-redentor": {
+      "name": "Cristo Redentor",
+      "description": "Estatua icónica en el Pico Isabel de Torres",
+      "history": "La estatua del Cristo Redentor en el Pico Isabel de Torres es una réplica de la famosa estatua de Río de Janeiro. Ubicada a 800 metros sobre el nivel del mar, ofrece una vista panorámica espectacular de toda la ciudad de Puerto Plata."
+    },
+    "teleferico": {
+      "name": "Teleférico",
+      "description": "El teleférico que lleva al Pico Isabel de Torres",
+      "history": "El Teleférico de Puerto Plata es el único funicular en el Caribe y ofrece vistas panorámicas impresionantes de la ciudad y el Océano Atlántico. Sube hasta el Pico Isabel de Torres, donde encontrarás jardines botánicos y una estatua del Cristo Redentor."
+    },
+    "museo-del-ambar": {
+      "name": "Museo del Ámbar",
+      "description": "Museo dedicado al ámbar dominicano y su historia",
+      "history": "El Museo del Ámbar alberga la colección más importante del mundo de ámbar dominicano. Estas resinas fosilizadas de 15-40 millones de años contienen insectos, plantas y pequeños animales perfectamente conservados, ofreciendo una ventana única al pasado prehistórico de la isla."
+    },
+    "museo-del-larimar": {
+      "name": "Museo del Larimar",
+      "description": "Museo dedicado a la piedra nacional de República Dominicana",
+      "history": "El Museo del Larimar exhibe la colección más completa de esta piedra semipreciosa única de República Dominicana. El larimar, también conocido como 'piedra del Caribe', se encuentra solo en esta región del mundo y es apreciado por su color azul único."
+    },
+    "museo-general-gregorio-luperon": {
+      "name": "Museo General Gregorio Luperón",
+      "description": "Museo dedicado al héroe nacional dominicano",
+      "history": "Este museo honra la memoria del General Gregorio Luperón, uno de los héroes más importantes de la independencia dominicana. Exhibe documentos históricos, armas y objetos personales que narran la vida y obra de este líder militar y político."
+    },
+    "parque-central-de-puerto-plata": {
+      "name": "Parque Central de Puerto Plata",
+      "description": "El corazón de la ciudad, punto de encuentro y eventos culturales",
+      "history": "El Parque Central es el centro neurálgico de Puerto Plata, rodeado de arquitectura colonial y vida local. Es el lugar donde se realizan festivales, conciertos y eventos culturales que definen el espíritu de la ciudad."
+    },
+    "monumento-hermanas-mirabal": {
+      "name": "Monumento Hermanas Mirabal",
+      "description": "Monumento en honor a las heroínas de la libertad",
+      "history": "Este monumento rinde homenaje a las Hermanas Mirabal, Patria, Minerva y María Teresa, símbolos de la lucha por la libertad y la democracia en República Dominicana. Su legado de valentía y resistencia continúa inspirando a las generaciones actuales."
+    },
+    "ron-factory": {
+      "name": "Fábrica de Ron",
+      "description": "Fábrica tradicional de ron dominicano",
+      "history": "Esta fábrica de ron representa la tradición centenaria de la producción de ron en República Dominicana. Los visitantes pueden aprender sobre el proceso de destilación y degustar algunos de los mejores rones del país."
+    },
+    "neptuno-malecon": {
+      "name": "Neptuno Malecón",
+      "description": "Estatua de Neptuno en el malecón de Puerto Plata",
+      "history": "La estatua de Neptuno en el malecón es un símbolo de la conexión de Puerto Plata con el mar. Esta imponente escultura representa al dios del mar y es un punto de referencia icónico para los visitantes del malecón."
+    },
+    "calle-rosada": {
+      "name": "Calle Rosada",
+      "description": "Una calle pintada de rosa con encanto colonial",
+      "history": "El Patio de Doña Blanca, conocido como la Calle Rosada, es una joya arquitectónica colonial que data del siglo XVI. Sus paredes pintadas de rosa pastel y su arquitectura española perfectamente conservada la convierten en una de las calles más fotografiadas de Puerto Plata."
+    },
+    "ocean-world": {
+      "name": "Ocean World",
+      "description": "Parque marino y acuario de Puerto Plata",
+      "history": "Ocean World es uno de los parques marinos más importantes del Caribe, donde los visitantes pueden interactuar con delfines, leones marinos y otras especies marinas. Ofrece experiencias educativas y de entretenimiento para toda la familia."
+    },
+    "letrero-puerto-plata": {
+      "name": "Letrero Puerto Plata",
+      "description": "El icónico letrero de bienvenida a Puerto Plata",
+      "history": "El icónico letrero de Puerto Plata en el malecón se ha convertido en el símbolo más reconocible de la ciudad. Instalado como parte de la renovación del malecón, representa el orgullo local y es el punto de encuentro favorito de turistas y locales para capturar el recuerdo perfecto."
+    },
+    "museo-ambar": {
+      "name": "Museo del Ámbar",
+      "description": "Museo dedicado al ámbar dominicano y su historia",
+      "history": "El Museo del Ámbar alberga la colección más importante de ámbar dominicano del mundo. Estas resinas fosilizadas de 15-40 millones de años contienen insectos, plantas y pequeños animales perfectamente preservados, ofreciendo una ventana única al pasado prehistórico de la isla."
+    },
+    "calle-de-las-sombrillas": {
+      "name": "Calle de las Sombrillas",
+      "description": "Una hermosa calle decorada con sombrillas coloridas",
+      "history": "La Calle de las Sombrillas es una instalación artística vibrante que transforma una calle ordinaria en un túnel de colores. Cientos de sombrillas multicolores cuelgan arriba, creando un espectáculo visual único que simboliza la alegría y creatividad del pueblo dominicano."
+    },
+    "calle-rosada": {
+      "name": "Calle Rosada",
+      "description": "Una calle pintada de rosa con encanto colonial",
+      "history": "El Patio de Doña Blanca, conocido como la Calle Rosada, es una joya arquitectónica colonial que data del siglo XVI. Sus paredes pintadas de rosa pastel y su arquitectura española perfectamente conservada la convierten en una de las calles más fotografiadas de Puerto Plata."
+    },
+    "letrero-puerto-plata": {
+      "name": "Letrero Puerto Plata",
+      "description": "El icónico letrero de bienvenida a Puerto Plata",
+      "history": "El icónico letrero de Puerto Plata en el malecón se ha convertido en el símbolo más reconocible de la ciudad. Instalado como parte de la renovación del malecón, representa el orgullo local y es el punto de encuentro favorito de turistas y locales para capturar el recuerdo perfecto."
+    },
+    "teleferico": {
+      "name": "Teleférico",
+      "description": "El teleférico que lleva al pico Isabel de Torres",
+      "history": "El Teleférico de Puerto Plata es el único funicular en el Caribe y ofrece vistas panorámicas impresionantes de la ciudad y el Océano Atlántico. Sube hasta el Pico Isabel de Torres, donde encontrarás jardines botánicos y una estatua del Cristo Redentor."
+    },
+    "fortaleza-san-felipe": {
+      "name": "Fortaleza San Felipe",
+      "description": "Fortaleza histórica del siglo XVI",
+      "history": "La Fortaleza San Felipe fue construida en el siglo XVI por los españoles para proteger el puerto de Puerto Plata de los ataques piratas. Sus gruesos muros de coral y cañones estratégicamente ubicados la convirtieron en una defensa impenetrable durante más de tres siglos."
+    },
+    "larimarr": {
+      "name": "Museo del Larimar",
+      "description": "Admira la piedra azul única de República Dominicana y su fascinante historia geológica.",
+      "history": "El Museo del Larimar exhibe la piedra semipreciosa azul exclusiva de República Dominicana, mostrando su historia y extracción."
+    },
+    "hermanasmirabal": {
+      "name": "Monumento Hermanas Mirabal",
+      "description": "Un homenaje a las heroínas de la libertad, símbolo de coraje y esperanza para toda una nación.",
+      "history": "El monumento honra a las Hermanas Mirabal, símbolo de la lucha por la libertad y los derechos humanos en República Dominicana."
+    },
+    "neptuno": {
+      "name": "Estatua Neptuno en el Malecón",
+      "description": "Escultura icónica frente al mar, símbolo de la relación de la ciudad con el océano.",
+      "history": "La estatua de Neptuno es un ícono del malecón de Puerto Plata, representando la relación de la ciudad con el mar."
+    },
+    "catedralsanfelipe": {
+      "name": "Catedral San Felipe",
+      "description": "Majestuosa obra de la arquitectura colonial, testigo de la fe y la historia de Puerto Plata.",
+      "history": "La Catedral San Felipe es un ejemplo de la arquitectura colonial religiosa y un punto central de la ciudad."
+    },
+    "cristoredentor": {
+      "name": "Cristo Redentor",
+      "description": "Monumento emblemático en el Pico Isabel de Torres, con vistas espectaculares.",
+      "history": "El Cristo Redentor corona el Pico Isabel de Torres y es uno de los monumentos más reconocidos de Puerto Plata."
+    },
+    "calledelacometas": {
+      "name": "Calle de las Cometas Voladoras",
+      "description": "Colorido arte urbano y tradición de volar cometas en festividades locales.",
+      "history": "La Calle de las Cometas es famosa por su colorido arte urbano y la tradición de volar cometas en festividades locales."
+    },
+    "parque-central": {
+      "name": "Parque Central de Puerto Plata",
+      "description": "El corazón de la ciudad, punto de encuentro y eventos culturales.",
+      "history": "El Parque Central es el punto neurálgico de Puerto Plata, rodeado de arquitectura colonial y vida local."
+    },
+    "museo-gregorio-luperon": {
+      "name": "Museo Gregorio Luperón",
+      "description": "Museo dedicado al héroe nacional Gregorio Luperón.",
+      "history": "Este museo honra la vida y legado de Gregorio Luperón, figura clave en la historia dominicana."
+    },
+    "ocean-world": {
+      "name": "Ocean World",
+      "description": "Parque acuático y delfinario de Puerto Plata",
+      "history": "Ocean World es uno de los parques acuáticos más completos del Caribe, ideal para disfrutar en familia. Ofrece espectáculos con delfines, leones marinos y otras especies marinas, además de actividades acuáticas emocionantes."
+    },
+    "ronfactory": {
+      "name": "Fábrica de Ron",
+      "description": "Tradición del ron dominicano",
+      "history": "La Fábrica de Ron representa la rica tradición de la producción de ron en República Dominicana, con métodos artesanales que se han mantenido por generaciones."
+    },
+    "calle-de-las-sombrillas": {
+      "name": "Calle de las Sombrillas",
+      "description": "Una hermosa calle decorada con sombrillas coloridas",
+      "history": "La Calle de las Sombrillas es una instalación artística vibrante que transforma una calle ordinaria en un túnel de colores. Cientos de sombrillas multicolores cuelgan arriba, creando un espectáculo visual único que simboliza la alegría y creatividad del pueblo dominicano."
+    },
+    "parque-central-de-puerto-plata": {
+      "name": "Parque Central de Puerto Plata",
+      "description": "El corazón de la ciudad, punto de encuentro y eventos culturales",
+      "history": "El Parque Central es el punto neurálgico de Puerto Plata, rodeado de arquitectura colonial y vida local. Es el lugar donde se celebran festivales, conciertos y eventos culturales que definen el espíritu de la ciudad."
+    },
+    "catedral-san-felipe": {
+      "name": "Catedral San Felipe",
+      "description": "Catedral histórica de Puerto Plata",
+      "history": "La Catedral San Felipe es un ejemplo de la arquitectura colonial religiosa y un punto central de la ciudad. Construida en el siglo XVI, ha sido testigo de la historia de Puerto Plata y continúa siendo un lugar de culto y peregrinación."
+    },
+    "teleferico": {
+      "name": "Teleférico",
+      "description": "El teleférico que lleva al pico Isabel de Torres",
+      "history": "El Teleférico de Puerto Plata es el único funicular en el Caribe y ofrece vistas panorámicas impresionantes de la ciudad y el Océano Atlántico. Sube hasta el Pico Isabel de Torres, donde encontrarás jardines botánicos y una estatua del Cristo Redentor."
+    },
+    "museo-del-ambar": {
+      "name": "Museo del Ámbar",
+      "description": "Museo dedicado al ámbar dominicano y su historia",
+      "history": "El Museo del Ámbar alberga la colección más importante de ámbar dominicano del mundo. Estas resinas fosilizadas de 15-40 millones de años contienen insectos, plantas y pequeños animales perfectamente preservados, ofreciendo una ventana única al pasado prehistórico de la isla."
+    },
+    "calle-de-las-chichiguas-cometas": {
+      "name": "Calle de las Chichigua (Cometas)",
+      "description": "Una colorida calle llena de cometas tradicionales dominicanas",
+      "history": "La Calle de las Cometas es famosa por su colorido arte urbano y la tradición de volar cometas en festividades locales. Esta calle representa la alegría y creatividad del pueblo dominicano a través del arte y las tradiciones populares."
+    },
+    "museo-del-larimar": {
+      "name": "Museo Larimar",
+      "description": "Museo dedicado a la piedra nacional de República Dominicana",
+      "history": "El Museo del Larimar exhibe la piedra semipreciosa azul exclusiva de República Dominicana, mostrando su historia y extracción. El larimar es una piedra única que solo se encuentra en esta región del mundo."
+    },
+    "museo-general-gregorio-luperon": {
+      "name": "Museo General Gregorio Luperón",
+      "description": "Museo dedicado al general Gregorio Luperón",
+      "history": "Este museo honra la vida y legado de Gregorio Luperón, figura clave en la historia dominicana. Luperón fue un líder militar y político que luchó por la independencia y la soberanía de República Dominicana."
+    },
+    "monumento-hermanas-mirabal": {
+      "name": "Monumento Hermanas Mirabal",
+      "description": "Monumento en honor a las hermanas Mirabal",
+      "history": "El monumento honra a las Hermanas Mirabal, símbolo de la lucha por la libertad y los derechos humanos en República Dominicana. Conocidas como \"Las Mariposas\", fueron heroínas que lucharon contra la dictadura de Trujillo."
+    },
+    "cristo-redentor": {
+      "name": "Cristo Redentor",
+      "description": "Monumento emblemático en el Pico Isabel de Torres",
+      "history": "El Cristo Redentor corona el Pico Isabel de Torres y es uno de los monumentos más reconocidos de Puerto Plata. Esta imponente estatua ofrece vistas espectaculares de la ciudad y el océano, siendo un símbolo de fe y esperanza."
+    },
+    "neptuno-malecon": {
+      "name": "Neptuno Malecón",
+      "description": "Monumento a Neptuno en el malecón de Puerto Plata",
+      "history": "La estatua de Neptuno es un ícono del malecón de Puerto Plata, representando la relación de la ciudad con el mar. Este monumento simboliza la importancia del océano en la vida y cultura de Puerto Plata."
+    },
+    "ron-factory": {
+      "name": "Ron Factory",
+      "description": "Fábrica de ron y experiencia de degustación",
+      "history": "La Fábrica de Ron representa la rica tradición de la producción de ron en República Dominicana, con métodos artesanales que se han mantenido por generaciones. Aquí puedes aprender sobre el proceso de elaboración y degustar los mejores rones del país."
+    }
+  },
+  "profile": {
+    "title": "Perfil de Usuario",
+    "name": "Nombre",
+    "email": "Correo",
+    "country": "País",
+    "password": "Contraseña",
+    "change_password": "Cambiar Contraseña",
+    "edit_data": "Editar Datos",
+    "logout": "Cerrar Sesión",
+    "edit_profile": "Editar Perfil",
+    "click_camera_to_upload": "Haz clic en la cámara para subir una foto",
+    "first_name": "Nombre",
+    "enter_first_name": "Ingresa tu nombre",
+    "last_name": "Apellido",
+    "optional": "Opcional",
+    "enter_last_name": "Ingresa tu apellido",
+    "account_settings": "Configuración de Cuenta",
+    "manage_password_external": "Contraseña gestionada externamente",
+    "change_account": "Cambiar Cuenta",
+    "change_language": "Cambiar Idioma",
+    "new_password": "Nueva Contraseña",
+    "password_managed_externally": "Contraseña gestionada por {{provider}}",
+    "go_to_portal": "Ir al Portal",
+    "select_language": "Seleccionar Idioma",
+    "download_audios_success": "Audios descargados exitosamente",
+    "download_audios_error": "Error descargando audios: {{error}}",
+    "download_map_success": "Mapa descargado exitosamente",
+    "download_images_success": "Imágenes descargadas exitosamente",
+    "download_images_error": "Error descargando imágenes: {{error}}",
+    "premium_user": "Usuario Premium",
+    "plan_progress": "Progreso del Plan",
+    "plan_progress_count": "{{used}}/{{total}} usados",
+    "upgrade_plan": "Actualizar Plan",
+    "medals": "Medallas",
+    "medal_bronze": "Medalla de Bronce",
+    "medal_silver": "Medalla de Plata",
+    "medal_gold": "Medalla de Oro",
+    "no_medals_yet": "Aún no tienes medallas",
+    "level": "Nivel",
+    "ranking": "Ranking",
+    "destinations_visited": "Destinos Visitados",
+    "tours_completed": "Tours Completados",
+    "account": "Cuenta",
+    "subscription_and_plans": "Suscripción y Planes",
+    "preferences": "Preferencias",
+    "language": "Idioma",
+    "dark_mode": "Modo Oscuro",
+    "offline_mode": "Modo Sin Conexión",
+    "offline_mode_premium_only": "Modo sin conexión solo para usuarios premium",
+    "download_audios": "Descargar Audios",
+    "download_map": "Descargar Mapa",
+    "download_images": "Descargar Imágenes",
+    "help_center": "Centro de Ayuda",
+    "version": "Versión {{version}}",
+    "fullNameLabel": "Nombre Completo",
+    "select_account": "Seleccionar Cuenta",
+    "current_account": "Cuenta Actual",
+    "switch_to_account": "Cambiar a Cuenta",
+    "continue_with_google": "Continuar con Google",
+    "continue_with_microsoft": "Continuar con Microsoft"
+  },
+  "tour": {
+    "start_tour": "Comenzar Tour",
+    "available_locations": "Ubicaciones Disponibles",
+    "locations_available": "ubicaciones disponibles",
+    "route_active": "Ruta activa",
+    "stop_route": "Detener ruta",
+    "start_guided_tour": "Comenzar tour guiado",
+    "open": "Abierto",
+    "closed": "Cerrado",
+    "open_in_maps": "Abrir en Mapas",
+    "close": "Cerrar"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "save": "Guardar",
+    "yes": "Sí",
+    "no": "No",
+    "locationNotFound": "Ubicación no encontrada",
+    "backToLibrary": "Volver a la Biblioteca"
+  },
+  "brand": "QR Tour",
+  "biblioteca_audios_title": "Biblioteca de Audio",
+  "biblioteca_audios_description": "Explora nuestra colección completa de guías de audio en múltiples idiomas",
+  "not_found_page": {
+    "title": "Página no encontrada",
+    "subtitle": "No pudimos encontrar la página que buscas.",
+    "description": "La URL ingresada no existe o fue removida.",
+    "back_to_home": "Volver al inicio",
+    "get_access": "Solicitar acceso",
+    "help_title": "¿Necesitas ayuda?",
+    "help_point_1": "Verifica la dirección URL.",
+    "help_point_2": "Regresa a la página principal.",
+    "help_point_3": "Contacta soporte si el problema persiste.",
+    "support_whatsapp": "Soporte WhatsApp"
+  },
+  "description_title": "Descripción",
+  "history_title": "Historia",
+  "audio_guide_title": "Guía de audio",
+  "history_of": "Historia de",
+  "duration": "Duración",
+  "demoLimit": "Límite de demo",
+  "fullAudio": "Audio completo",
+  "audioInDifferentLanguages": "Audio en Diferentes Idiomas",
+  "retroceder10s": "Retroceder 10s",
+  "avanzar10s": "Avanzar 10s",
+  "velocidad": "Velocidad",
+  "demoTimeLimitReached": "Límite de tiempo de demo alcanzado",
+  "subscribeToListenFullAudio": "Suscríbete para escuchar el audio completo",
+  "getPremiumAccess": "Obtener Acceso Premium",
+  "how_to_scan_qr": "¿Cómo escanear un código QR?",
+  "open_camera": "Abrir la cámara",
+  "open_camera_description": "Abre la aplicación de cámara de tu teléfono. Si tu dispositivo lo permite, también puedes usar una aplicación de escaneo QR.",
+  "focus_qr_code": "Enfoca el código QR",
+  "focus_qr_code_description": "Asegúrate de que el código QR esté centrado y visible en la pantalla.",
+  "tap_notification": "Toca la notificación",
+  "tap_notification_description": "Cuando aparezca la notificación, tócala para abrir el enlace.",
+  "open_link_description": "El contenido exclusivo se abrirá en tu navegador.",
+  "useful_tips": "Consejos útiles",
+  "tip_1": "Asegúrate de tener buena iluminación.",
+  "tip_2": "Si no funciona, limpia la cámara e intenta de nuevo.",
+  "tip_3": "Algunos dispositivos requieren una aplicación QR especial.",
+  "tip_4": "Permite acceso a la cámara si se solicita.",
+  "understood": "Entendido",
+  "scan_now": "Escanear ahora",
+  "places_of_interest": {
+    "calle_sombrillas": {
+      "title": "Calle de las Sombrillas",
+      "description": "Una hermosa calle decorada con sombrillas coloridas"
+    },
+    "calle_rosada": {
+      "title": "Calle Rosada",
+      "description": "Una calle pintada de rosa con encanto colonial"
+    },
+    "museo_ambar": {
+      "title": "Museo del Ámbar",
+      "description": "Museo dedicado al ámbar dominicano y su historia"
+    },
+    "letrero_puerto_plata": {
+      "title": "Letrero Puerto Plata",
+      "description": "El icónico letrero de bienvenida a Puerto Plata"
+    },
+    "teleferico": {
+      "title": "Teleférico",
+      "description": "El teleférico que lleva al pico Isabel de Torres"
+    },
+    "fortaleza_san_felipe": {
+      "title": "Fortaleza San Felipe",
+      "description": "Fortaleza histórica del siglo XVI"
+    }
+  },
+  "downloading": "Descargando",
+  "download_audios_error": "Error descargando audios: {{error}}",
+  "download_images_error": "Error descargando imágenes: {{error}}",
+  "logout_error": "Error al cerrar sesión",
+  "profile_save_error": "Error al guardar el perfil",
+  "auth_token_error": "No hay token de autenticación",
+  "image_too_large": "La imagen es demasiado grande. Por favor selecciona una imagen más pequeña.",
+  "download_error": "Error descargando {{file}}",
+  "hotels": {
+    "maimon": "Maimón",
+    "playa_dorada": "Playa Dorada",
+    "puerto_plata_centro": "Puerto Plata Centro",
+    "costambar": "Costambar",
+    "cofresi": "Cofresí",
+    "sosua": "Sosúa",
+    "cabarete": "Cabarete",
+    "hotel_maimon_beach_resort": "Hotel Maimón Beach Resort",
+    "costa_dorada_resort": "Costa Dorada Resort",
+    "iberostar_costa_dorada": "Iberostar Costa Dorada",
+    "barcelo_puerto_plata": "Barceló Puerto Plata",
+    "viva_wyndham_v_heavens": "Viva Wyndham V Heavens",
+    "bluebay_villas_doradas": "BlueBay Villas Doradas",
+    "sunscape_puerto_plata": "Sunscape Puerto Plata",
+    "lifestyle_tropical_beach_resort": "Lifestyle Tropical Beach Resort",
+    "grand_paradise_playa_dorada": "Grand Paradise Playa Dorada",
+    "playa_dorada_golf_club_resort": "Playa Dorada Golf Club Resort",
+    "hotel_puerto_plata": "Hotel Puerto Plata",
+    "hotel_castilla": "Hotel Castilla",
+    "hotel_marien": "Hotel Marien",
+    "hotel_victoria": "Hotel Victoria",
+    "hotel_colonial": "Hotel Colonial",
+    "hotel_europa": "Hotel Europa",
+    "costambar_beach_resort": "Costambar Beach Resort",
+    "hotel_costambar": "Hotel Costambar",
+    "villas_costambar": "Villas Costambar",
+    "ocean_world_adventure_park_hotel": "Ocean World Adventure Park Hotel",
+    "hotel_cofresi": "Hotel Cofresí",
+    "cofresi_beach_resort": "Cofresí Beach Resort",
+    "hotel_sosua_bay": "Hotel Sosúa Bay",
+    "hotel_sosua_by_the_sea": "Hotel Sosúa by the Sea",
+    "hotel_sosua_ocean_village": "Hotel Sosúa Ocean Village",
+    "hotel_sosua_tropical": "Hotel Sosúa Tropical",
+    "hotel_cabarete_palm_beach": "Hotel Cabarete Palm Beach",
+    "hotel_cabarete_east": "Hotel Cabarete East",
+    "hotel_cabarete_surf_camp": "Hotel Cabarete Surf Camp",
+    "hotel_cabarete_ocean_view": "Hotel Cabarete Ocean View",
+    "hotel_cabarete_beach_resort": "Hotel Cabarete Beach Resort"
+  },
+  "destinations": {
+    "parque_central": "Parque Central",
+    "catedral_san_felipe": "Catedral San Felipe",
+    "fortaleza_san_felipe": "Fortaleza San Felipe",
+    "calle_de_las_sombrillas": "Calle de las Sombrillas",
+    "museo_del_ambar": "Museo del Ámbar",
+    "teleferico_puerto_plata": "Teleférico Puerto Plata",
+    "playa_dorada": "Playa Dorada",
+    "centro_comercial": "Centro Comercial",
+    "mercado_modelo": "Mercado Modelo",
+    "malecon_de_puerto_plata": "Malecón de Puerto Plata",
+    "categories": {
+      "centro": "Centro",
+      "historico": "Histórico",
+      "turistico": "Turístico",
+      "cultural": "Cultural",
+      "playa": "Playa",
+      "comercial": "Comercial"
+    }
+  },
+  "services": {
+    "request_guide": "Solicitar Guía",
+    "request_guide_desc": "Contrata un guía turístico profesional para tu recorrido",
+    "request_transport": "Solicitar Transporte",
+    "request_transport_desc": "Reserva transporte o taxi para tu tour",
+    "direct_contact": "Contacto Directo",
+    "direct_contact_desc": "Llama directamente para consultas generales",
+    "emergency": "Emergencia",
+    "emergency_desc": "Número de emergencia 24/7"
+  },
+  "forms": {
+    "placeholders": {
+      "full_name": "Tu nombre completo",
+      "search_excursion": "Buscar excursión",
+      "current_password": "Ingresa tu contraseña actual",
+      "new_password": "Ingresa tu nueva contraseña",
+      "confirm_password": "Confirma tu nueva contraseña"
+    },
+    "errors": {
+      "required_fields": "Email y nombre son campos requeridos",
+      "create_reservation_error": "Error al crear la reserva. Por favor, inténtalo de nuevo.",
+      "create_user_error": "Error al crear usuario",
+      "delete_user_confirm": "¿Estás seguro de que quieres eliminar este usuario?",
+      "unexpected_error": "Error inesperado al crear usuario"
+    },
+    "success": {
+      "reservation_confirmed": "¡Reserva confirmada exitosamente! Te contactaremos pronto.",
+      "user_created": "Usuario creado exitosamente",
+      "user_deleted": "Usuario eliminado exitosamente"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "registered_places": "Lugares registrados",
+      "total_destinations": "Total Destinos",
+      "main_destinations": "Destinos principales",
+      "featured": "Destacados",
+      "registered_users": "Usuarios registrados",
+      "total_users": "Total Usuarios",
+      "active_users": "Usuarios Activos",
+      "premium_users": "Usuarios Premium",
+      "visualizations": "Visualizaciones",
+      "total_visits": "Total Visitas",
+      "active_ads": "Anuncios Activos",
+      "recent_scans": "Escaneos Recientes",
+      "recent_reservations": "Reservaciones Recientes",
+      "recent_feedback": "Feedback Reciente"
+    }
+  },
+  "errors": {
+    "something_went_wrong": "Algo salió mal",
+    "unexpected_error": "Ha ocurrido un error inesperado. Por favor, intenta de nuevo.",
+    "error_details_dev": "Detalles del error (solo desarrollo)",
+    "retry": "Reintentar",
+    "go_home": "Ir al inicio"
+  },
+  "feedback": {
+    "no_feedback_yet": "No tienes feedback aún",
+    "share_experience": "Comparte tu experiencia y ayuda a mejorar la plataforma",
+    "create_first_feedback": "Crear primer feedback",
+    "retry": "Reintentar",
+    "loading": "Cargando…"
+  },
+  "plans": {
+    "names": {
+      "basic_24h": "Plan Básico 24h",
+      "premium_7d": "Plan Semanal",
+      "premium_30d": "Plan Mensual",
+      "premium_365d": "Plan Anual"
+    },
+    "descriptions": {
+      "basic_24h": "Acceso básico por 24 horas con funciones esenciales",
+      "premium_7d": "Acceso semanal por 7 días con beneficios adicionales",
+      "premium_30d": "Acceso mensual con todas las funciones premium",
+      "premium_365d": "Acceso anual con beneficios exclusivos"
+    },
+    "features": {
+      "full_access_24h": "Acceso completo por 24 horas",
+      "all_tours_available": "Todos los tours disponibles",
+      "high_quality_audio": "Audio de alta calidad",
+      "whatsapp_support": "Soporte WhatsApp",
+      "any_device_access": "Acceso desde cualquier dispositivo",
+      "unlimited_access_24h": "Acceso ilimitado por 24 horas",
+      "all_premium_audios": "Todos los audios premium",
+      "technical_support_included": "Soporte técnico incluido",
+      "full_access_1_week": "Acceso completo por 1 semana",
+      "priority_support_24_7": "Soporte prioritario 24/7",
+      "offline_downloads": "Descargas offline",
+      "exclusive_content": "Contenido exclusivo",
+      "full_access_1_month": "Acceso completo por 1 mes",
+      "tour_guide_panel": "Panel de guía turístico",
+      "usage_statistics": "Estadísticas de uso",
+      "educational_material": "Acceso a material educativo",
+      "full_access_1_year": "Acceso completo por 1 año",
+      "vip_support_24_7": "Soporte VIP 24/7",
+      "personalized_sessions": "Sesiones personalizadas",
+      "official_certifications": "Certificaciones oficiales",
+      "priority_support": "Soporte prioritario",
+      "offline_download": "Descarga offline",
+      "unlimited_access_7d": "Acceso ilimitado por 7 días",
+      "offline_usage": "Descarga para uso offline",
+      "priority_support_24_7_alt": "Soporte prioritario 24/7"
+    }
+  },
+  "admin": {
+    "feedback": {
+      "all_categories": "Todas las categorías",
+      "service": "Servicio",
+      "location": "Ubicación",
+      "experience": "Experiencia",
+      "other": "Otro",
+      "all": "Todos",
+      "responded": "Respondidos",
+      "not_responded": "Sin responder",
+      "user": "Usuario",
+      "destination": "Destino",
+      "rating": "Rating",
+      "comment": "Comentario",
+      "status": "Estado",
+      "date": "Fecha",
+      "actions": "Acciones",
+      "loading_comments": "Cargando comentarios...",
+      "no_feedback_found": "No se encontraron comentarios",
+      "filter_feedback": "Filtrar comentarios",
+      "category": "Categoría",
+      "response_status": "Estado de respuesta"
+    },
+    "reservations": {
+      "export": "Exportar",
+      "new_reservation": "Nueva Reserva",
+      "all_status": "Todos los estados",
+      "confirmed": "Confirmada",
+      "pending": "Pendiente",
+      "cancelled": "Cancelada",
+      "completed": "Completada",
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "destination": "Destino",
+      "date": "Fecha",
+      "time": "Hora",
+      "participants": "Participantes",
+      "status": "Estado",
+      "actions": "Acciones",
+      "loading_reservations": "Cargando reservas...",
+      "no_reservations_found": "No se encontraron reservas",
+      "filter_reservations": "Filtrar reservas",
+      "search_reservations": "Buscar reservas"
+    }
+  },
+  "payment": {
+    "methods": "Métodos de Pago",
+    "credit_card": "Tarjeta de Crédito",
+    "credit_card_description": "Paga con Visa, Mastercard, American Express y más",
+    "paypal": "PayPal",
+    "paypal_description": "Pago rápido y seguro con tu cuenta PayPal",
+    "title": "Pago",
+    "planDetails": "Detalles del plan",
+    "oneTime": "Pago único",
+    "features": "Características:",
+    "moreFeatures": "más características",
+    "selectMethod": "Seleccionar método de pago"
+  },
+  "plans": {
+    "basic_access": "Acceso Básico",
+    "weekly_plan": "Plan Semanal",
+    "select_plan": "Select Plan",
+    "popular": "Popular",
+    "features": {
+      "full_access_24h": "Acceso completo por 24 horas",
+      "full_access_7d": "Acceso completo por 7 días",
+      "all_tours_available": "Todos los tours disponibles",
+      "high_quality_audio": "Audio de alta calidad",
+      "whatsapp_support": "Soporte WhatsApp",
+      "priority_support": "Soporte prioritario",
+      "any_device_access": "Acceso desde cualquier dispositivo",
+      "offline_download": "Descarga offline",
+      "more_features": "+1 más características"
+    },
+    "unlock_audios": "Desbloquear audios",
+    "no_payment_link": "No hay enlace de pago configurado para este plan"
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "message": "Utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Al continuar navegando, aceptas nuestro uso de cookies.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learn_more": "Saber más",
+    "banner_title": "Cookies y Privacidad",
+    "banner_description": "Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web."
+  }
+}

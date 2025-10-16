@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "subscribe": "S'abonner",
+    "admin": "Administrateur",
+    "login": "Se connecter",
+    "logout": "Se déconnecter"
+  },
+  "home": {
+    "hero_title": "Découvrez Puerto Plata",
+    "hero_subtitle": "Avec des Codes QR",
+    "hero_desc": "Explorez la riche histoire et culture de Puerto Plata à travers des codes QR interactifs. Écoutez des audios informatifs tout en visitant les lieux les plus emblématiques de la ville.",
+    "start_tour": "Commencer le Tour",
+    "main_features": "Caractéristiques Principales",
+    "main_features_desc": "Tout ce dont vous avez besoin pour une expérience touristique complète et mémorable",
+    "easy_access": "Accès Facile",
+    "easy_access_desc": "Scannez simplement le code QR à chaque emplacement pour accéder instantanément à des informations détaillées et des audios informatifs.",
+    "see_instructions": "Voir les instructions",
+    "premium_audio": "Audios Premium",
+    "premium_audio_desc": "Profitez de narrations professionnelles en plusieurs langues avec des effets sonores et de la musique de fond pour une expérience immersive.",
+    "see_audio_library": "Voir la bibliothèque audio",
+    "map_locations": "Carte des Emplacements",
+    "map_locations_desc": "Naviguez sur une carte interactive montrant tous les points d'intérêt avec des informations détaillées et des itinéraires optimisés.",
+    "see_qr_map": "Voir la carte QR",
+    "access_24h": "Accès 24/7",
+    "access_24h_desc": "Accédez à toutes les informations touristiques à tout moment de la journée, sans avoir besoin de guides physiques ou d'horaires spécifiques.",
+    "popular_places": "Lieux Populaires",
+    "popular_places_desc": "Les destinations les plus visitées et recommandées par nos utilisateurs",
+    "testimonials_title": "Ce que disent nos utilisateurs",
+    "testimonials_desc": "Expériences réelles de voyageurs qui ont utilisé notre système",
+    "stats_audios": "Lectures Audio",
+    "stats_countries": "Pays",
+    "cta_title": "Prêt à explorer Puerto Plata ?",
+    "cta_desc": "Rejoignez des milliers de voyageurs qui ont déjà découvert la magie de Puerto Plata avec notre technologie QR",
+    "cta_button": "S'abonner Maintenant",
+    "access_denied_title": "Accès Restreint",
+    "access_denied_desc": "Cette fonctionnalité n'est disponible que pour les abonnés premium. Abonnez-vous pour accéder à toute la bibliothèque audio.",
+    "subscribe_now": "S'abonner Maintenant",
+    "admin_panel": "Panneau d'Administration",
+    "go_to_admin": "Aller au Panneau d'Administration"
+  },
+  "footer": {
+    "description": "Découvrez l'histoire et la culture de Puerto Plata à travers des codes QR interactifs. Votre guide touristique numérique personnel.",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Support Technique",
+    "immediate_response": "Réponse Immédiate",
+    "faq": "Questions Fréquemment Posées",
+    "all_rights_reserved": "Tous droits réservés",
+    "terms_of_service": "Conditions de Service",
+    "privacy_policy": "Politique de Confidentialité",
+    "admin_dashboard_button": "Tableau de Bord Admin"
+  },
+  "faq": {
+    "how_to_use_qr": "Comment utiliser les codes QR ?",
+    "how_to_use_qr_description": "Scannez simplement le code QR avec l'appareil photo de votre téléphone et accédez instantanément à des informations détaillées et des audios informatifs.",
+    "access_duration": "Combien de temps dure l'accès ?",
+    "access_duration_description": "L'accès dépend de votre plan d'abonnement. Les plans de base ont un accès limité, tandis que les plans premium offrent un accès complet 24/7.",
+    "available_languages": "Dans quelles langues les audios sont-ils disponibles ?",
+    "available_languages_description": "Nous proposons actuellement des audios en espagnol, anglais et français. Nous travaillons pour ajouter plus de langues.",
+    "technical_issues": "Que faire si j'ai des problèmes techniques ?",
+    "technical_issues_description": "Si vous rencontrez des problèmes, contactez notre support technique via WhatsApp ou email. Nous répondons en moins de 24 heures."
+  },
+  "audio": {
+    "play": "Jouer",
+    "pause": "Pause",
+    "stop": "Arrêter",
+    "volume": "Volume",
+    "speed": "Vitesse",
+    "loading": "Chargement...",
+    "error": "Erreur lors du chargement de l'audio"
+  },
+  "location": {
+    "viewMore": "Voir plus",
+    "details": "Détails",
+    "history": "Histoire",
+    "services": "Services",
+    "directions": "Directions",
+    "share": "Partager"
+  },
+  "subscribe": {
+    "title": "S'abonner",
+    "subtitle": "Choisissez le plan qui correspond le mieux à vos besoins",
+    "experience": "Profitez d'une expérience touristique unique avec des codes QR interactifs",
+    "plans": "Plans",
+    "price": "Prix",
+    "usd": "USD",
+    "features": {
+      "unlimited": "Accès Illimité",
+      "quality": "Audio de Haute Qualité",
+      "languages": "Langues Multiples",
+      "support": "Support 24/7"
+    },
+    "mostPopular": "Le Plus Populaire",
+    "hours": "heures",
+    "selectedPlan": "Plan Sélectionné",
+    "selectPlan": "Sélectionner le Plan",
+    "fullNameLabel": "Nom Complet",
+    "fullNamePlaceholder": "Entrez votre nom complet",
+    "fullNameAutocomplete": "Nom détecté automatiquement",
+    "qrCodeRequirement": "Vous devez visiter au moins 40 codes QR pour obtenir le certificat",
+    "paymentInfoTitle": "Informations de Paiement",
+    "duration": {
+      "week": "1 semaine",
+      "month": "1 mois"
+    },
+    "timeLeft": {
+      "remaining": "Temps restant",
+      "days": "jour",
+      "hours": "heure",
+      "minutes": "minute"
+    },
+    "paymentMethodsTitle": "Méthodes de Paiement",
+    "paymentMethods": {
+      "card": {
+        "title": "Carte de Crédit",
+        "alert": "Traitement de carte simulé"
+      },
+      "applePay": {
+        "title": "Apple Pay"
+      },
+      "paypal": {
+        "title": "PayPal"
+      }
+    },
+    "cardNumberLabel": "Numéro de Carte",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expirationDateLabel": "Date d'Expiration",
+    "expirationDatePlaceholder": "MM/AA",
+    "cvvLabel": "CVV",
+    "cvvPlaceholder": "123",
+    "cardholderNameLabel": "Nom du Titulaire",
+    "cardholderNamePlaceholder": "Nom tel qu'il apparaît sur la carte",
+    "emailLabel": "Adresse Email",
+    "emailPlaceholder": "votre@email.com",
+    "cta": "S'abonner Maintenant",
+    "processingPayment": "Traitement du Paiement...",
+    "securityInfo": "Paiement sécurisé avec chiffrement SSL",
+    "plansData": {
+      "basic": {
+        "name": "Accès de Base",
+        "features": [
+          "Accès complet pendant 24 heures",
+          "Tous les tours disponibles",
+          "Audio de haute qualité",
+          "Support WhatsApp",
+          "Accès depuis n'importe quel appareil"
+        ]
+      },
+      "weekly": {
+        "name": "Accès Hebdomadaire",
+        "features": [
+          "Accès complet pendant 1 semaine",
+          "Tous les tours disponibles",
+          "Audio de haute qualité",
+          "Support prioritaire 24/7",
+          "Accès depuis n'importe quel appareil",
+          "Téléchargements hors ligne",
+          "Contenu exclusif"
+        ]
+      },
+      "guide": {
+        "name": "Plan Guide Touristique",
+        "features": [
+          "Accès complet pendant 1 mois",
+          "Tous les tours disponibles",
+          "Audio de haute qualité",
+          "Support prioritaire 24/7",
+          "Accès depuis n'importe quel appareil",
+          "Téléchargements hors ligne",
+          "Contenu exclusif",
+          "Panneau de guide touristique",
+          "Statistiques d'utilisation",
+          "Accès au matériel éducatif"
+        ]
+      },
+      "elite": {
+        "name": "Élite Ultra Annuel",
+        "features": [
+          "Accès total et illimité à tous les audios premium",
+          "Audios disponibles en plusieurs langues",
+          "Planification complète d'itinéraires dans l'application",
+          "Accès à d'autres destinations touristiques: Zone Coloniale, Samaná, Punta Cana, Bayahíbe, Cabarete",
+          "Système d'alarmes intelligentes pour retourner à temps au bateau de croisière ou au vol",
+          "Rappels par vibration, audio et notification",
+          "Mode hors ligne: téléchargement de cartes, audios et informations sans connexion",
+          "Accès aux points touristiques secrets et zones exclusives",
+          "Coordonnées de guides certifiés recommandés",
+          "Bouton d'urgence avec géolocalisation active",
+          "Envoi de localisation aux contacts de confiance ou au personnel d'assistance",
+          "Support prioritaire 24/7 avec réponse en moins d'1 heure",
+          "Remises dans les magasins locaux et commerces partenaires",
+          "Accès anticipé aux nouvelles routes et contenus",
+          "Compatibilité avec le bracelet intelligent (audio, alarme et SOS depuis le poignet)"
+        ]
+      }
+    }
+  },
+  "map": {
+    "title": "Carte des Codes QR",
+    "subtitle": "Puerto Plata - Lieux Touristiques",
+    "categories": {
+      "title": "Catégories",
+      "all": "Tous",
+      "historic": "Historique",
+      "cultural": "Culturel",
+      "recreational": "Récréatif",
+      "religious": "Religieux",
+      "natural": "Naturel"
+    },
+    "additional_services": "Services Supplémentaires",
+  "services": {
+      "guide": "Guide Touristique",
+      "guide_request": "Demander un guide physique",
+      "transport": "Transport",
+      "transport_request": "Demander un véhicule",
+      "call": "Appeler Directement"
+    },
+    "locations": "Emplacements",
+    "tip": "Cliquez sur une épingle pour voir les détails",
+    "total_locations": "Total des emplacements",
+    "location": "Emplacement"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "personal_info": "Informations Personnelles",
+    "subscription": "Abonnement",
+    "history": "Historique",
+    "settings": "Paramètres",
+    "logout": "Se Déconnecter",
+    "edit": "Modifier",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+  "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "view": "Voir",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "add": "Ajouter",
+    "save": "Enregistrer",
+    "yes": "Oui",
+    "no": "Non"
+  }
+} 

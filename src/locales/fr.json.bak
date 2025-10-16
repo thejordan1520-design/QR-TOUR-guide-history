@@ -1,0 +1,336 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "subscribe": "S'abonner",
+    "admin": "Administrateur",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "profile": "Profil"
+  },
+  "home": {
+    "hero_title": "Découvrez l'Histoire",
+    "hero_subtitle": "de Puerto Plata",
+    "hero_desc": "Explorez les lieux les plus emblématiques de Puerto Plata avec notre guide audio interactif. Scannez les codes QR et plongez dans la riche histoire de cette belle ville caribéenne.",
+    "start_tour": "Commencer le Tour",
+    "main_features": "Caractéristiques Principales",
+    "main_features_desc": "Découvrez tout ce que notre plateforme a à vous offrir",
+    "easy_access": "Accès Facile",
+    "easy_access_desc": "Scannez les codes QR pour accéder instantanément au contenu exclusif",
+    "see_instructions": "Voir les instructions",
+    "premium_audio": "Audio Premium",
+    "premium_audio_desc": "Narrations professionnelles en plusieurs langues",
+    "see_audio_library": "Voir la bibliothèque",
+    "map_locations": "Carte des Lieux",
+    "map_locations_desc": "Trouvez tous les points d'intérêt sur une carte interactive",
+    "see_qr_map": "Voir la carte QR",
+    "access_24h": "Accès 24h",
+    "access_24h_desc": "Contenu disponible 24 heures sur 24",
+    "travel_alarm_title": "Alarme de Voyage",
+    "travel_alarm_desc": "Configurez des alertes pour ne pas manquer votre transport de retour",
+    "login_required_alarm": "Connectez-vous pour activer l'alarme",
+    "activate": "Activer",
+    "alarm_time_limit": "Heure limite de retour",
+    "search_flight_cruise": "Rechercher mon vol ou croisière",
+    "alarm_distance": "Distance d'alerte (km)",
+    "activate_alarm": "Activer l'Alarme",
+    "cancel": "Annuler",
+    "alarm_active": "Alarme Active",
+    "time_remaining": "Temps restant",
+    "edit": "Modifier",
+    "popular_locations_title": "Lieux Populaires",
+    "popular_locations_desc": "Découvrez les lieux les plus visités et passionnants de Puerto Plata.",
+    "audio_button": "Audio",
+    "see_more": "Voir plus",
+    "testimonials_title": "Témoignages",
+    "testimonials_desc": "Ce que disent nos utilisateurs de leur expérience.",
+    "audio_available": "Audios Disponibles",
+    "countries_covered": "Pays Couverts",
+    "join_community": "Rejoignez Notre Communauté",
+    "discover_more_content": "Découvrez plus de lieux, d'audios et d'expériences. Rejoignez notre communauté pour accéder au contenu exclusif.",
+    "subscribe_now": "S'abonner Maintenant",
+    "audio_denied_message": "Il semble que vous n'ayez pas de plan d'abonnement. Veuillez vous abonner pour accéder à toutes les fonctionnalités."
+  },
+  "footer": {
+    "description": "Découvrez l'histoire et la culture de Puerto Plata à travers des codes QR interactifs. Votre guide touristique numérique personnel.",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Support Technique",
+    "immediate_response": "Réponse Immédiate",
+    "faq": "Questions Fréquemment Posées",
+    "all_rights_reserved": "Tous droits réservés",
+    "terms_of_service": "Conditions de Service",
+    "privacy_policy": "Politique de Confidentialité"
+  },
+  "faq": {
+    "how_to_use_qr": "Comment utiliser les codes QR ?",
+    "how_to_use_qr_description": "Scannez simplement le code QR avec l'appareil photo de votre téléphone et accédez instantanément à des informations détaillées et des audios informatifs.",
+    "access_duration": "Combien de temps dure l'accès ?",
+    "access_duration_description": "L'accès dépend de votre plan d'abonnement. Les plans de base ont un accès limité, tandis que les plans premium offrent un accès complet 24/7.",
+    "available_languages": "Dans quelles langues les audios sont-ils disponibles ?",
+    "available_languages_description": "Nous proposons actuellement des audios en espagnol, anglais et français. Nous travaillons pour ajouter plus de langues.",
+    "technical_issues": "Que faire si j'ai des problèmes techniques ?",
+    "technical_issues_description": "Si vous rencontrez des problèmes, contactez notre support technique via WhatsApp ou email. Nous répondons en moins de 24 heures.",
+    "how_long_access": "Combien de temps ai-je accès ?",
+    "how_long_access_description": "L'accès dure tant que votre abonnement est actif. Vous pouvez le renouveler à tout moment."
+  },
+  "audio": {
+    "play": "Jouer",
+    "pause": "Pause",
+    "stop": "Arrêter",
+    "volume": "Volume",
+    "speed": "Vitesse",
+    "loading": "Chargement...",
+    "error": "Erreur lors du chargement de l'audio",
+    "premium_active": "Accès Premium Actif",
+    "limited_access": "Accès Limité - Abonnez-vous pour le contenu complet"
+  },
+  "location": {
+    "viewMore": "Voir plus",
+    "details": "Détails",
+    "history": "Histoire",
+    "services": "Services",
+    "directions": "Directions",
+    "share": "Partager"
+  },
+  "subscribe": {
+    "title": "S'abonner",
+    "subtitle": "Choisissez le plan qui correspond le mieux à vos besoins",
+    "experience": "Profitez d'une expérience touristique unique avec des codes QR interactifs",
+    "plans": "Plans",
+    "price": "Prix",
+    "usd": "USD",
+    "features": {
+      "unlimited": "Accès Illimité",
+      "quality": "Audio de Haute Qualité",
+      "languages": "Langues Multiples",
+      "support": "Support 24/7"
+    },
+    "mostPopular": "Le Plus Populaire",
+    "hours": "heures",
+    "selectedPlan": "Plan Sélectionné",
+    "selectPlan": "Sélectionner le Plan",
+    "fullNameLabel": "Nom Complet",
+    "fullNamePlaceholder": "Entrez votre nom complet",
+    "fullNameAutocomplete": "Nom détecté automatiquement",
+    "qrCodeRequirement": "Vous devez visiter au moins 40 codes QR pour obtenir le certificat",
+    "paymentInfoTitle": "Informations de Paiement",
+    "duration": {
+      "week": "1 semaine",
+      "month": "1 mois"
+    },
+    "timeLeft": {
+      "remaining": "Temps restant",
+      "days": "jour",
+      "hours": "heure",
+      "minutes": "minute"
+    },
+    "paymentMethodsTitle": "Méthodes de Paiement",
+    "paymentMethods": {
+      "card": {
+        "title": "Carte de Crédit",
+        "alert": "Traitement de carte simulé"
+      },
+      "applePay": {
+        "title": "Apple Pay"
+      },
+      "paypal": {
+        "title": "PayPal"
+      }
+    },
+    "cardNumberLabel": "Numéro de Carte",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expirationDateLabel": "Date d'Expiration",
+    "expirationDatePlaceholder": "MM/AA",
+    "cvvLabel": "CVV",
+    "cvvPlaceholder": "123",
+    "cardholderNameLabel": "Nom du Titulaire",
+    "cardholderNamePlaceholder": "Nom tel qu'il apparaît sur la carte",
+    "emailLabel": "Adresse Email",
+    "emailPlaceholder": "votre@email.com",
+    "cta": "S'abonner Maintenant",
+    "processingPayment": "Traitement du Paiement...",
+    "securityInfo": "Paiement sécurisé avec chiffrement SSL",
+    "plansData": {
+      "basic": {
+        "name": "Accès de Base",
+        "features": [
+          "Accès complet pendant 24 heures",
+          "Tous les tours disponibles",
+          "Audio de haute qualité",
+          "Support WhatsApp",
+          "Accès depuis n'importe quel appareil"
+        ]
+      },
+      "weekly": {
+        "name": "Accès Hebdomadaire",
+        "features": [
+          "Accès complet pendant 1 semaine",
+          "Tous les tours disponibles",
+          "Audio de haute qualité",
+          "Support prioritaire 24/7",
+          "Accès depuis n'importe quel appareil",
+          "Téléchargements hors ligne",
+          "Contenu exclusif"
+        ]
+      },
+      "guide": {
+        "name": "Plan Guide Touristique",
+        "features": [
+          "Accès complet pendant 1 mois",
+          "Tous les tours disponibles",
+          "Audio de haute qualité",
+          "Support prioritaire 24/7",
+          "Accès depuis n'importe quel appareil",
+          "Téléchargements hors ligne",
+          "Contenu exclusif",
+          "Panneau de guide touristique",
+          "Statistiques d'utilisation",
+          "Accès au matériel éducatif"
+        ]
+      },
+      "elite": {
+        "name": "Élite Ultra Annuel",
+        "features": [
+          "Accès total et illimité à tous les audios premium",
+          "Audios disponibles en plusieurs langues",
+          "Planification complète d'itinéraires dans l'application",
+          "Accès à d'autres destinations touristiques: Zone Coloniale, Samaná, Punta Cana, Bayahíbe, Cabarete",
+          "Système d'alarmes intelligentes pour retourner à temps au bateau de croisière ou au vol",
+          "Rappels par vibration, audio et notification",
+          "Mode hors ligne: téléchargement de cartes, audios et informations sans connexion",
+          "Accès aux points touristiques secrets et zones exclusives",
+          "Coordonnées de guides certifiés recommandés",
+          "Bouton d'urgence avec géolocalisation active",
+          "Envoi de localisation aux contacts de confiance ou au personnel d'assistance",
+          "Support prioritaire 24/7 avec réponse en moins d'1 heure",
+          "Remises dans les magasins locaux et commerces partenaires",
+          "Accès anticipé aux nouvelles routes et contenus",
+          "Compatibilité avec le bracelet intelligent (audio, alarme et SOS depuis le poignet)"
+        ]
+      }
+    }
+  },
+  "map": {
+    "title": "Carte des Codes QR",
+    "subtitle": "Puerto Plata - Lieux Touristiques",
+    "categories": {
+      "title": "Catégories",
+      "all": "Tous",
+      "historic": "Historique",
+      "cultural": "Culturel",
+      "recreational": "Récréatif",
+      "religious": "Religieux",
+      "natural": "Naturel"
+    },
+    "additional_services": "Services Supplémentaires",
+    "services": {
+      "guide": "Guide Touristique",
+      "guide_request": "Demander un guide physique",
+      "transport": "Transport",
+      "transport_request": "Demander un véhicule",
+      "call": "Appeler Directement"
+    },
+    "tip": "Cliquez sur une épingle pour voir les détails",
+    "total_locations": "Total des emplacements",
+    "location": "Emplacement"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "personal_info": "Informations Personnelles",
+    "subscription": "Abonnement",
+    "history": "Historique",
+    "settings": "Paramètres",
+    "logout": "Se Déconnecter",
+    "edit": "Modifier",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "login_required": "Vous devez vous connecter pour voir votre profil."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "view": "Voir",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "add": "Ajouter",
+    "save": "Enregistrer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "brand": "QR Tour Guide History",
+  "biblioteca_audios_title": "Bibliothèque d'Audios",
+  "biblioteca_audios_description": "Explorez notre collection complète de guides audio en plusieurs langues",
+  "not_found_page": {
+    "title": "Page non trouvée",
+    "subtitle": "Nous n'avons pas pu trouver la page que vous recherchez.",
+    "description": "L'URL saisie n'existe pas ou a été supprimée.",
+    "back_to_home": "Retour à l'accueil",
+    "get_access": "Demander l'accès",
+    "help_title": "Besoin d'aide ?",
+    "help_point_1": "Vérifiez l'adresse URL.",
+    "help_point_2": "Retournez à la page principale.",
+    "help_point_3": "Contactez le support si le problème persiste.",
+    "support_whatsapp": "Support WhatsApp"
+  },
+  "description": "Description",
+  "history": "Histoire",
+  "audioGuide": "Guide audio",
+  "historyOf": "Histoire de",
+  "duration": "Durée",
+  "demoLimit": "Limite démo",
+  "fullAudio": "Audio complet",
+  "description_title": "Description",
+  "history_title": "Histoire",
+  "audio_guide_title": "Guide audio",
+  "history_of": "Histoire de",
+  "audioInDifferentLanguages": "Audio en Différentes Langues",
+  "retroceder10s": "Reculer 10s",
+  "avanzar10s": "Avancer 10s",
+  "velocidad": "Vitesse",
+  "demoTimeLimitReached": "Limite de temps démo atteinte",
+  "subscribeToListenFullAudio": "Abonnez-vous pour écouter l'audio complet",
+  "getPremiumAccess": "Obtenir l'Accès Premium",
+  "locations": {
+    "fortaleza-san-felipe": {
+      "name": "Forteresse San Felipe",
+      "description": "Forteresse historique du XVIe siècle",
+      "history": "La forteresse San Felipe a été construite au XVIe siècle par les Espagnols pour protéger le port de Puerto Plata des attaques de pirates. Ses épais murs de pierre de corail et ses canons stratégiquement placés en ont fait une défense imprenable pendant plus de trois siècles."
+    },
+    "teleferico-puerto-plata": {
+      "name": "Téléphérique de Puerto Plata",
+      "description": "Le seul téléphérique des Caraïbes",
+      "history": "Le téléphérique de Puerto Plata est le seul funiculaire des Caraïbes et offre des vues panoramiques impressionnantes sur la ville et l'océan Atlantique. Il monte au Pico Isabel de Torres, où vous trouverez des jardins botaniques et une statue du Christ Rédempteur."
+    },
+    "calle-sombrillas": {
+      "name": "Rue des Ombrelles",
+      "description": "Rue piétonne artistique et colorée",
+      "history": "La Rue des Ombrelles est une installation artistique vibrante qui transforme une rue ordinaire en un tunnel de couleurs. Des centaines d'ombrelles multicolores sont suspendues au-dessus de la rue, créant un spectacle visuel unique symbolisant la joie et la créativité du peuple dominicain."
+    },
+    "calle-rosada": {
+      "name": "Rue Rose (Patio Doña Blanca)",
+      "description": "Rue coloniale rose historique",
+      "history": "Le Patio de Doña Blanca, connu sous le nom de Rue Rose, est un joyau architectural colonial datant du XVIe siècle. Ses murs rose pastel et son architecture espagnole parfaitement conservée en font l'une des rues les plus photographiées de Puerto Plata."
+    },
+    "letrero-puerto-plata": {
+      "name": "Enseigne Puerto Plata",
+      "description": "Enseigne emblématique sur la promenade",
+      "history": "L'enseigne emblématique de Puerto Plata sur la promenade est devenue le symbole le plus reconnaissable de la ville. Installée dans le cadre de la rénovation de la promenade, elle représente la fierté locale et est le lieu de rencontre préféré des touristes et des habitants pour capturer le souvenir parfait."
+    },
+    "museo-ambar": {
+      "name": "Musée de l'Ambre",
+      "description": "Trésors préhistoriques dans l'ambre",
+      "history": "Le Musée de l'Ambre abrite la collection la plus importante d'ambre dominicain au monde. Ces résines fossilisées de 15 à 40 millions d'années contiennent des insectes, des plantes et de petits animaux parfaitement préservés, offrant une fenêtre unique sur le passé préhistorique de l'île."
+    }
+  }
+} 

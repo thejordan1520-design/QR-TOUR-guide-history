@@ -1,0 +1,723 @@
+{
+  "forms": {
+    "placeholders": {
+      "full_name": "Full name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "age": "Age",
+      "participants": "Number of participants",
+      "special_requests": "Special requests",
+      "emergency_contact": "Emergency contact",
+      "emergency_phone": "Emergency phone"
+    },
+    "labels": {
+      "full_name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "age": "Age",
+      "participants": "Participants",
+      "reservation_date": "Reservation Date",
+      "reservation_time": "Reservation Time",
+      "special_requests": "Special Requests",
+      "emergency_contact": "Emergency Contact",
+      "emergency_phone": "Emergency Phone"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "confirm": "Confirm Reservation",
+      "saving": "Saving...",
+      "retry": "Retry"
+    },
+    "messages": {
+      "success": "Reservation confirmed! We have sent you a confirmation email.",
+      "connection_error": "Connection error. Please check your internet connection and try again.",
+      "duplicate_error": "A reservation with this data already exists. Please verify the information.",
+      "unknown_error": "Error creating reservation: {{error}}",
+      "loading_excursions": "Loading excursions...",
+      "form_title": "Book Excursion"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalid_email": "Please enter a valid email",
+      "invalid_phone": "Please enter a valid phone number",
+      "min_participants": "There must be at least 1 participant",
+      "max_participants": "Maximum 10 participants"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "subscribe": "Subscribe",
+    "login": "Log In",
+    "logout": "Log Out",
+    "profile": "Profile"
+  },
+  "profile": {
+    "guest": "Guest",
+    "no_email": "No email",
+    "premium_user": "Premium User",
+    "plan_progress": "Plan Progress",
+    "plan_progress_count": "{{used}}/{{total}} used",
+    "upgrade_plan": "Upgrade Plan",
+    "medals": "Medals",
+    "no_medals_yet": "You don't have medals yet",
+    "level": "Level",
+    "ranking": "Ranking",
+    "destinations_visited": "Destinations Visited",
+    "tours_completed": "Tours Completed",
+    "account": "Account",
+    "subscription_and_plans": "Subscription and Plans",
+    "account_settings": "Account Settings",
+    "feedback_suggestions": "Feedback and Suggestions",
+    "preferences": "Preferences",
+    "language": "Language",
+    "dark_mode": "Dark Mode",
+    "offline_mode": "Offline Mode",
+    "offline_mode_premium_only": "Offline mode only for premium users",
+    "help_center": "Help Center",
+    "version": "Version {{version}}",
+    "logout": "Log Out",
+    "edit_profile": "Edit Profile",
+    "personal_data": "Personal Data",
+    "full_name": "Full Name",
+    "email": "Email",
+    "save_changes": "Save Changes",
+    "profile_details_updated": "Profile details updated",
+    "profile_details_update_error": "Error updating profile details",
+    "change_password": "Change Password",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "repeat_new_password": "Repeat New Password",
+    "update_password": "Update Password",
+    "passwords_do_not_match": "Passwords do not match",
+    "password_updated_successfully": "Password updated successfully",
+    "error_updating_password": "Error updating password",
+    "network_error": "Network error",
+    "forgot_password": "Forgot your password?",
+    "registration_email": "Registration Email",
+    "request_temporary_password": "Request Temporary Password",
+    "temporary_password_generated": "Temporary password generated",
+    "could_not_generate_temporary_password": "Could not generate temporary password",
+    "temporary_password": "Temporary Password",
+    "simulated_email_message": "This is a simulated email message",
+    "back_to_change_password": "Back to change password",
+    "qr_history_title": "QR Code History",
+    "qr_history_place": "Place",
+    "qr_history_datetime": "Date and Time",
+    "qr_history_map": "View on Map",
+    "qr_history_view_map": "View Map",
+    "profile_subscriptions_history_title": "Subscription History",
+    "profile_subscriptions_history_plan": "Plan",
+    "profile_subscriptions_history_start": "Start",
+    "profile_subscriptions_history_end": "End",
+    "profile_subscriptions_history_amount": "Amount",
+    "profile_subscriptions_history_status": "Status",
+    "upgrade_plan_title": "Plan Upgrade",
+    "upgrade_plan_description": "Want to access more benefits? Change your plan easily.",
+    "improve_plan": "Improve Plan",
+    "change_account": "Change Account",
+    "manage_password_external": "Manage Password (External)",
+    "select_language": "Select Language",
+    "medal_explorador": "Explorer Medal",
+    "medal_curioso": "Curious Medal",
+    "medal_viajero": "Traveler Medal",
+    "medal_experto": "Expert Medal",
+    "download_audios": "Download Audios",
+    "download_map": "Download Map",
+    "download_images": "Download Images",
+    "downloading": "Downloading",
+    "download_audios_success": "Audios downloaded successfully",
+    "download_audios_error": "Error downloading audios: {{error}}",
+    "download_images_success": "Images downloaded successfully",
+    "download_images_error": "Error downloading images: {{error}}",
+    "download_map_success": "Map downloaded successfully",
+    "change_language": "Change Language",
+    "legal": "Legal",
+    "legal_information": "Legal Information",
+    "terms_of_use": "Terms of Use",
+    "privacy_policy": "Privacy Policy",
+    "open_source_license": "Open Source License",
+    "terms_description": "Service conditions and terms",
+    "privacy_description": "How we protect your information",
+    "license_description": "License information (limited)",
+    "common": {
+      "back": "Back",
+      "cancel": "Cancel"
+    }
+  },
+  "subscribe": {
+    "title": "Subscribe",
+    "subtitle": "Choose the plan that best fits your needs",
+    "hideDetails": "Hide Details",
+    "selectPlan": "Select Plan"
+  },
+  "plans": {
+    "unlock_audios": "Unlock audios",
+    "no_payment_link": "No payment link configured for this plan"
+  },
+  "audio": {
+    "loading": "Loading audio...",
+    "play": "Play",
+    "pause": "Pause",
+    "demoLimit": "Demo limited",
+    "fullAudio": "full audio",
+    "freeEnded": {
+      "title": "Demo ended",
+      "description": "You have listened to the first 10 seconds. Subscribe to hear the full audio. Get unlimited access to all audios for 24 hours for just $5 USD!",
+      "button": "Subscribe now - $5 USD",
+      "morePlans": "View more plans"
+    }
+  },
+  "payment": {
+    "title": "Payment",
+    "loadingPayPal": "Loading PayPal...",
+    "paypal": {
+      "title": "PayPal Account",
+      "subtitle": "Fast and secure payment",
+      "description": "Pay with your PayPal account"
+    }
+  },
+  "locations": {
+    "fortaleza-san-felipe": {
+      "name": "Fortaleza San Felipe",
+      "description": "Historic 16th-century fortress",
+      "history": "Fortaleza San Felipe was built in the 16th century by the Spanish to protect Puerto Plata's port from pirate attacks. Its thick coral stone walls and strategically placed cannons made it an impenetrable defense for over three centuries."
+    },
+    "letrero-puerto-plata": {
+      "name": "Puerto Plata Sign",
+      "description": "The iconic welcome sign to Puerto Plata",
+      "history": "The iconic Puerto Plata sign on the boardwalk has become the most recognizable symbol of the city. Installed as part of the boardwalk renovation, it represents local pride and is the favorite meeting point for tourists and locals to capture the perfect memory."
+    },
+    "calle-de-las-sombrillas": {
+      "name": "Umbrella Street",
+      "description": "A beautiful street decorated with colorful umbrellas",
+      "history": "Umbrella Street is a vibrant artistic installation that transforms an ordinary street into a tunnel of colors. Hundreds of multicolored umbrellas hang overhead, creating a unique visual spectacle that symbolizes the joy and creativity of the Dominican people."
+    },
+    "calle-rosada": {
+      "name": "Pink Street",
+      "description": "A street painted pink with colonial charm",
+      "history": "Doña Blanca's Patio, known as Pink Street, is a colonial architectural gem dating from the 16th century. Its pastel pink painted walls and perfectly preserved Spanish architecture make it one of the most photographed streets in Puerto Plata."
+    },
+    "parque-central-de-puerto-plata": {
+      "name": "Central Park of Puerto Plata",
+      "description": "The heart of the city, meeting point and cultural events",
+      "history": "Central Park is the nerve center of Puerto Plata, surrounded by colonial architecture and local life. It's the place where festivals, concerts and cultural events that define the city's spirit are held."
+    },
+    "catedral-san-felipe": {
+      "name": "San Felipe Cathedral",
+      "description": "Historic cathedral of Puerto Plata",
+      "history": "San Felipe Cathedral is an example of colonial religious architecture and a central point of the city. Built in the 16th century, it has witnessed Puerto Plata's history and continues to be a place of worship and pilgrimage."
+    },
+    "teleferico": {
+      "name": "Cable Car",
+      "description": "The cable car that takes you to Pico Isabel de Torres",
+      "history": "The Puerto Plata Cable Car is the only funicular in the Caribbean and offers breathtaking panoramic views of the city and the Atlantic Ocean. It takes you up to Pico Isabel de Torres, where you'll find botanical gardens and a statue of Christ the Redeemer."
+    },
+    "museo-del-ambar": {
+      "name": "Amber Museum",
+      "description": "Museum dedicated to Dominican amber and its history",
+      "history": "The Amber Museum houses the world's most important collection of Dominican amber. These fossilized resins from 15-40 million years ago contain perfectly preserved insects, plants and small animals, offering a unique window into the island's prehistoric past."
+    },
+    "calle-de-las-sombrillas": {
+      "name": "Umbrella Street",
+      "description": "A beautiful street decorated with colorful umbrellas",
+      "history": "Umbrella Street is a vibrant artistic installation that transforms an ordinary street into a tunnel of colors. Hundreds of multicolored umbrellas hang overhead, creating a unique visual spectacle that symbolizes the joy and creativity of the Dominican people."
+    },
+    "calle-rosada": {
+      "name": "Pink Street",
+      "description": "A street painted pink with colonial charm",
+      "history": "Doña Blanca's Patio, known as Pink Street, is a colonial architectural gem dating from the 16th century. Its pastel pink painted walls and perfectly preserved Spanish architecture make it one of the most photographed streets in Puerto Plata."
+    },
+    "letrero-puerto-plata": {
+      "name": "Puerto Plata Sign",
+      "description": "The iconic welcome sign to Puerto Plata",
+      "history": "The iconic Puerto Plata sign on the boardwalk has become the most recognizable symbol of the city. Installed as part of the boardwalk renovation, it represents local pride and is the favorite meeting point for tourists and locals to capture the perfect memory."
+    },
+    "teleferico": {
+      "name": "Cable Car",
+      "description": "The cable car that takes you to Pico Isabel de Torres",
+      "history": "The Puerto Plata Cable Car is the only funicular in the Caribbean and offers breathtaking panoramic views of the city and the Atlantic Ocean. It takes you up to Pico Isabel de Torres, where you'll find botanical gardens and a statue of Christ the Redeemer."
+    },
+    "fortaleza-san-felipe": {
+      "name": "Fortaleza San Felipe",
+      "description": "Historic 16th-century fortress",
+      "history": "Fortaleza San Felipe was built in the 16th century by the Spanish to protect Puerto Plata's port from pirate attacks. Its thick coral stone walls and strategically placed cannons made it an impenetrable defense for over three centuries."
+    },
+    "calle-de-las-chichiguas-cometas": {
+      "name": "Kite Street (Chichigua)",
+      "description": "A colorful street full of traditional Dominican kites",
+      "history": "Kite Street is famous for its colorful urban art and the tradition of flying kites during local festivals. This street represents the joy and creativity of the Dominican people through art and popular traditions."
+    },
+    "museo-del-larimar": {
+      "name": "Larimar Museum",
+      "description": "Museum dedicated to the national stone of the Dominican Republic",
+      "history": "The Larimar Museum displays the exclusive blue semiprecious stone of the Dominican Republic, showing its history and extraction. Larimar is a unique stone found only in this region of the world."
+    },
+    "museo-general-gregorio-luperon": {
+      "name": "General Gregorio Luperón Museum",
+      "description": "Museum dedicated to General Gregorio Luperón",
+      "history": "This museum honors the life and legacy of Gregorio Luperón, a key figure in Dominican history. Luperón was a military and political leader who fought for the independence and sovereignty of the Dominican Republic."
+    },
+    "monumento-hermanas-mirabal": {
+      "name": "Mirabal Sisters Monument",
+      "description": "Monument in honor of the Mirabal sisters",
+      "history": "The monument honors the Mirabal Sisters, symbol of the struggle for freedom and human rights in the Dominican Republic. Known as \"The Butterflies\", they were heroines who fought against the Trujillo dictatorship."
+    },
+    "cristo-redentor": {
+      "name": "Christ the Redeemer",
+      "description": "Iconic monument on Pico Isabel de Torres",
+      "history": "Christ the Redeemer crowns Pico Isabel de Torres and is one of Puerto Plata's most recognized monuments. This imposing statue offers spectacular views of the city and ocean, being a symbol of faith and hope."
+    },
+    "neptuno-malecon": {
+      "name": "Neptune Boardwalk",
+      "description": "Neptune monument on Puerto Plata's boardwalk",
+      "history": "The Neptune statue is an icon of Puerto Plata's boardwalk, representing the city's relationship with the sea. This monument symbolizes the importance of the ocean in Puerto Plata's life and culture."
+    },
+    "ocean-world": {
+      "name": "Ocean World",
+      "description": "Water park and dolphinarium in Puerto Plata",
+      "history": "Ocean World is one of the most complete water parks in the Caribbean, ideal for family fun. It offers shows with dolphins, sea lions and other marine species, plus exciting water activities."
+    },
+    "ron-factory": {
+      "name": "Rum Factory",
+      "description": "Rum factory and tasting experience",
+      "history": "The Rum Factory represents the rich tradition of rum production in the Dominican Republic, with artisanal methods that have been maintained for generations. Here you can learn about the production process and taste the best rums in the country."
+    }
+  },
+  "home": {
+    "hero_title": "Discover the History",
+    "hero_subtitle": "of Puerto Plata",
+    "hero_desc": "Explore the most emblematic places of Puerto Plata with our interactive audio guide. Scan QR codes and immerse yourself in the rich history of this beautiful Caribbean city.",
+    "start_tour": "Start Tour",
+    "main_features": "Main Features",
+    "main_features_desc": "Discover everything our platform has to offer you",
+    "easy_access": "Easy Access",
+    "easy_access_desc": "Scan QR codes to instantly access exclusive content",
+    "see_instructions": "See instructions",
+    "premium_audio": "Premium Audios",
+    "premium_audio_desc": "Professional narrations in multiple languages",
+    "see_audio_library": "See library",
+    "map_locations": "Map of Locations",
+    "map_locations_desc": "Find all points of interest on an interactive map",
+    "see_services": "See services",
+    "services_restaurants": "Services and Restaurants",
+    "services_restaurants_desc": "Find restaurants, supermarkets, taxis, guides and more local services",
+    "listen_audio": "Listen to audio",
+    "access_24h": "24h Access",
+    "access_24h_desc": "Content available 24 hours a day",
+    "travel_alarm_title": "Travel Alarm",
+    "travel_alarm_desc": "Set up alerts so you don't miss your return transportation",
+    "login_required_alarm": "Log in to activate alarm",
+    "activate": "Activate",
+    "alarm_time_limit": "Return time limit",
+    "search_flight_cruise": "Search my flight or cruise",
+    "alarm_distance": "Alert distance (km)",
+    "activate_alarm": "Activate Alarm",
+    "cancel": "Cancel",
+    "alarm_active": "Alarm Active",
+    "time_remaining": "Time remaining",
+    "edit": "Edit",
+    "popular_locations_title": "Popular Places",
+    "popular_locations_desc": "Discover the most visited and exciting places in Puerto Plata.",
+    "audio_button": "Audio",
+    "see_more": "See more",
+    "testimonials_title": "Testimonials",
+    "testimonials_desc": "What our users say about their experience.",
+    "audio_available": "Available Audios",
+    "countries_covered": "+ places covered",
+    "read_more": "Read more",
+    "testimonial_title": "Testimonial",
+    "join_community": "Join Our Community",
+    "discover_more_content": "Discover more places, audios and experiences. Join our community to access exclusive content.",
+    "subscribe_now": "Subscribe Now",
+    "view_on_map": "View on Map",
+    "see_qr_map": "See QR Map"
+  },
+  "audioLibrary": {
+    "title": "Audio Library",
+    "subtitle": "Discover all available audio guides",
+    "defaultDuration": "1-2.3 min",
+    "audio": "Audio",
+    "history": "History",
+    "narrations": "Narrations",
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English",
+      "french": "French"
+    },
+    "premiumTitle": "Premium Access",
+    "premiumMsg": "Subscribe to access all audio content",
+    "premiumBtn": "Subscribe Now"
+  },
+  "location": {
+    "audioGuide": "Audio Guide",
+    "narration": "Narration in",
+    "minutes": "minutes",
+    "viewMore": "View more details",
+    "history": "History",
+    "curiosities": "Curiosities",
+    "directions": "How to get there",
+    "gallery": "Gallery",
+    "locationInfo": "Location Information",
+    "duration_label": "Duration",
+    "rating_label": "Rating",
+    "quickActions": "Quick Actions",
+    "viewOnMaps": "View on Maps",
+    "share": "Share",
+    "link_copied": "Link copied to clipboard"
+  },
+  "qrMap": {
+    "title": "QR Code Map",
+    "subtitle": "Puerto Plata - Tourist Places",
+    "searchPlaceholder": "Search place...",
+    "categoryFilter": "Filter by category",
+    "allCategories": "All categories",
+    "ratingFilter": "Rating filter",
+    "availableLocations": "Available locations",
+    "search_placeholder": "Search places...",
+    "filters": "Filters",
+    "all_ratings": "All ratings",
+    "rating_4_plus": "4★ or more",
+    "rating_4_5_plus": "4.5★ or more",
+    "rating_5": "5★",
+    "all_status": "All status",
+    "open": "Open",
+    "closed": "Closed",
+    "all_categories": "All categories",
+    "sort_by_name": "Sort by name",
+    "sort_by_rating": "Sort by rating",
+    "show_favorites": "Favorites only",
+    "show_all": "Show all",
+    "places_found": "places found",
+    "place_found": "place found",
+    "view_on_map": "View on map",
+    "places_available": "places available",
+    "favorites": "favorites",
+    "loading_map": "Loading map...",
+    "categories": {
+      "historico": "Historic",
+      "cultural": "Cultural",
+      "recreativo": "Recreational",
+      "religioso": "Religious",
+      "natural": "Natural"
+    }
+  },
+  "footer": {
+    "description": "Discover the history and culture of Puerto Plata through interactive QR codes. Your personal QR Tour guide.",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Technical Support",
+    "immediate_response": "Immediate Response",
+    "faq": "Frequently Asked Questions",
+    "all_rights_reserved": "© 2025 All rights reserved",
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy"
+  },
+  "faq": {
+    "how_to_use_qr": "How to use QR codes?",
+    "how_to_use_qr_description": "Simply scan the QR code with your phone camera and instantly access detailed information and informative audio.",
+    "access_duration": "How long does access last?",
+    "access_duration_description": "Access depends on your subscription plan. Basic plans have limited access, while premium plans offer full 24/7 access.",
+    "available_languages": "In what languages are the audios available?",
+    "available_languages_description": "We currently offer audios in Spanish, English and French. We are working to add more languages.",
+    "technical_issues": "What to do if I have technical problems?",
+    "technical_issues_description": "If you experience any problems, contact our technical support via WhatsApp or email. We respond within 24 hours.",
+    "how_long_access": "How long do I have access?",
+    "how_long_access_description": "Access lasts for the duration of your active subscription. You can renew it at any time."
+  },
+  "forms": {
+    "placeholders": {
+      "full_name": "Your full name",
+      "search_excursion": "Search excursion",
+      "current_password": "Enter your current password",
+      "new_password": "Enter your new password",
+      "confirm_password": "Confirm your new password"
+    },
+    "errors": {
+      "required_fields": "Email and name are required fields",
+      "create_reservation_error": "Error creating the reservation. Please try again.",
+      "create_user_error": "Error creating user",
+      "delete_user_confirm": "Are you sure you want to delete this user?",
+      "unexpected_error": "Unexpected error creating user"
+    },
+    "success": {
+      "reservation_confirmed": "Reservation confirmed successfully! We will contact you soon.",
+      "user_created": "User created successfully",
+      "user_deleted": "User deleted successfully"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "registered_places": "Registered Places",
+      "total_destinations": "Total Destinations",
+      "main_destinations": "Main Destinations",
+      "featured": "Featured",
+      "registered_users": "Registered Users",
+      "total_users": "Total Users",
+      "active_users": "Active Users",
+      "premium_users": "Premium Users",
+      "visualizations": "Visualizations",
+      "total_visits": "Total Visits",
+      "active_ads": "Active Ads",
+      "recent_scans": "Recent Scans",
+      "recent_reservations": "Recent Reservations",
+      "recent_feedback": "Recent Feedback"
+    }
+  },
+  "errors": {
+    "something_went_wrong": "Something went wrong",
+    "unexpected_error": "An unexpected error occurred. Please try again.",
+    "error_details_dev": "Error details (development only)",
+    "retry": "Retry",
+    "go_home": "Go to Home"
+  },
+  "feedback": {
+    "no_feedback_yet": "You don't have feedback yet",
+    "share_experience": "Share your experience and help improve the platform",
+    "create_first_feedback": "Create first feedback",
+    "retry": "Retry",
+    "loading": "Loading..."
+  },
+  "plans": {
+    "names": {
+      "basic_24h": "Basic 24h Plan",
+      "premium_7d": "Weekly Plan",
+      "premium_30d": "Monthly Plan",
+      "premium_365d": "Annual Plan"
+    },
+    "descriptions": {
+      "basic_24h": "Basic access for 24 hours with essential features",
+      "premium_7d": "Weekly access for 7 days with additional benefits",
+      "premium_30d": "Monthly access with all premium features",
+      "premium_365d": "Annual access with exclusive benefits"
+    },
+    "features": {
+      "full_access_24h": "Full access for 24 hours",
+      "all_tours_available": "All available tours",
+      "high_quality_audio": "High quality audio",
+      "whatsapp_support": "WhatsApp support",
+      "any_device_access": "Access from any device",
+      "unlimited_access_24h": "Unlimited access for 24 hours",
+      "all_premium_audios": "All premium audios",
+      "technical_support_included": "Technical support included",
+      "full_access_1_week": "Full access for 1 week",
+      "priority_support_24_7": "Priority support 24/7",
+      "offline_downloads": "Offline downloads",
+      "exclusive_content": "Exclusive content",
+      "full_access_1_month": "Full access for 1 month",
+      "tour_guide_panel": "Tour guide panel",
+      "usage_statistics": "Usage statistics",
+      "educational_material": "Access to educational material",
+      "full_access_1_year": "Full access for 1 year",
+      "vip_support_24_7": "VIP support 24/7",
+      "personalized_sessions": "Personalized sessions",
+      "official_certifications": "Official certifications",
+      "priority_support": "Priority support",
+      "offline_download": "Offline download",
+      "unlimited_access_7d": "Unlimited access for 7 days",
+      "offline_usage": "Download for offline use",
+      "priority_support_24_7_alt": "Priority support 24/7"
+    }
+  },
+  "admin": {
+    "feedback": {
+      "all_categories": "All categories",
+      "service": "Service",
+      "location": "Location",
+      "experience": "Experience",
+      "other": "Other",
+      "all": "All",
+      "responded": "Responded",
+      "not_responded": "Not responded",
+      "user": "User",
+      "destination": "Destination",
+      "rating": "Rating",
+      "comment": "Comment",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions",
+      "loading_comments": "Loading comments...",
+      "no_feedback_found": "No comments found",
+      "filter_feedback": "Filter comments",
+      "category": "Category",
+      "response_status": "Response status"
+    },
+    "reservations": {
+      "export": "Export",
+      "new_reservation": "New Reservation",
+      "all_status": "All status",
+      "confirmed": "Confirmed",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "completed": "Completed",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "destination": "Destination",
+      "date": "Date",
+      "time": "Time",
+      "participants": "Participants",
+      "status": "Status",
+      "actions": "Actions",
+      "loading_reservations": "Loading reservations...",
+      "no_reservations_found": "No reservations found",
+      "filter_reservations": "Filter reservations",
+      "search_reservations": "Search reservations"
+    }
+  },
+  "payment": {
+    "methods": "Payment Methods",
+    "credit_card": "Credit Card",
+    "credit_card_description": "Pay with Visa, Mastercard, American Express and more",
+    "paypal": "PayPal",
+    "paypal_description": "Fast and secure payment with your PayPal account",
+    "title": "Payment",
+    "planDetails": "Plan details",
+    "oneTime": "One-time payment",
+    "features": "Features:",
+    "moreFeatures": "more features",
+    "selectMethod": "Select payment method"
+  },
+  "plans": {
+    "basic_access": "Basic Access",
+    "weekly_plan": "Weekly Plan",
+    "select_plan": "Select Plan",
+    "popular": "Popular",
+    "features": {
+      "full_access_24h": "Full access for 24 hours",
+      "full_access_7d": "Full access for 7 days",
+      "all_tours_available": "All available tours",
+      "high_quality_audio": "High quality audio",
+      "whatsapp_support": "WhatsApp support",
+      "priority_support": "Priority support",
+      "any_device_access": "Access from any device",
+      "offline_download": "Offline download",
+      "more_features": "+1 more features"
+    }
+  },
+  "sombrilla-001": {
+    "name": "Umbrella Street",
+    "description": "Colorful artistic pedestrian street",
+    "history": "Umbrella Street is a vibrant artistic installation that transforms an ordinary street into a tunnel of colors. Hundreds of multicolored umbrellas hang above, creating a unique visual spectacle that symbolizes the joy and creativity of the Dominican people."
+  },
+  "rosada-002": {
+    "name": "Pink Street",
+    "description": "A street painted pink with colonial charm",
+    "history": "Doña Blanca's Patio, known as Pink Street, is a colonial architectural gem dating from the 16th century. Its pastel pink painted walls and perfectly preserved Spanish architecture make it one of the most photographed streets in Puerto Plata."
+  },
+  "ambar-003": {
+    "name": "Amber Museum",
+    "description": "Museum dedicated to Dominican amber",
+    "history": "The Amber Museum houses one of the world's most important amber collections, including pieces with fossilized insects and plants from millions of years ago. Dominican amber is considered one of the most valuable in the world for its purity and color."
+  },
+  "catedral-san-felipe": {
+    "name": "San Felipe Cathedral",
+    "description": "Historic cathedral of Puerto Plata",
+    "history": "San Felipe Cathedral is an example of colonial religious architecture and a central point of the city. Built in the 16th century, it has witnessed Puerto Plata's history and continues to be a place of worship and pilgrimage."
+  },
+  "cristo-redentor": {
+    "name": "Christ the Redeemer",
+    "description": "Iconic statue on Isabel de Torres Peak",
+    "history": "The Christ the Redeemer statue on Isabel de Torres Peak is a replica of the famous statue in Rio de Janeiro. Located 800 meters above sea level, it offers a spectacular panoramic view of the entire city of Puerto Plata."
+  },
+  "teleferico": {
+    "name": "Cable Car",
+    "description": "The cable car that takes you to Isabel de Torres Peak",
+    "history": "The Puerto Plata Cable Car is the only funicular in the Caribbean and offers breathtaking panoramic views of the city and the Atlantic Ocean. It takes you up to Isabel de Torres Peak, where you'll find botanical gardens and a statue of Christ the Redeemer."
+  },
+  "museo-del-ambar": {
+    "name": "Amber Museum",
+    "description": "Museum dedicated to Dominican amber and its history",
+    "history": "The Amber Museum houses the world's most important collection of Dominican amber. These fossilized resins from 15-40 million years ago contain perfectly preserved insects, plants and small animals, offering a unique window into the island's prehistoric past."
+  },
+  "museo-del-larimar": {
+    "name": "Larimar Museum",
+    "description": "Museum dedicated to the national stone of the Dominican Republic",
+    "history": "The Larimar Museum exhibits the most complete collection of this unique semiprecious stone from the Dominican Republic. Larimar, also known as 'Caribbean stone', is found only in this region of the world and is prized for its unique blue color."
+  },
+  "museo-general-gregorio-luperon": {
+    "name": "General Gregorio Luperón Museum",
+    "description": "Museum dedicated to the Dominican national hero",
+    "history": "This museum honors the memory of General Gregorio Luperón, one of the most important heroes of Dominican independence. It exhibits historical documents, weapons and personal objects that tell the life and work of this military and political leader."
+  },
+  "parque-central-de-puerto-plata": {
+    "name": "Central Park of Puerto Plata",
+    "description": "The heart of the city, meeting point and cultural events",
+    "history": "Central Park is the nerve center of Puerto Plata, surrounded by colonial architecture and local life. It's the place where festivals, concerts and cultural events that define the city's spirit are held."
+  },
+  "monumento-hermanas-mirabal": {
+    "name": "Mirabal Sisters Monument",
+    "description": "Monument in honor of the heroines of freedom",
+    "history": "This monument pays tribute to the Mirabal Sisters, Patria, Minerva and María Teresa, symbols of the struggle for freedom and democracy in the Dominican Republic. Their legacy of courage and resistance continues to inspire current generations."
+  },
+  "ron-factory": {
+    "name": "Rum Factory",
+    "description": "Traditional Dominican rum factory",
+    "history": "This rum factory represents the centuries-old tradition of rum production in the Dominican Republic. Visitors can learn about the distillation process and taste some of the country's best rums."
+  },
+  "neptuno-malecon": {
+    "name": "Neptune Boardwalk",
+    "description": "Neptune statue on Puerto Plata's boardwalk",
+    "history": "The Neptune statue on the boardwalk is a symbol of Puerto Plata's connection to the sea. This imposing sculpture represents the god of the sea and is an iconic landmark for boardwalk visitors."
+  },
+  "calle-rosada": {
+    "name": "Pink Street",
+    "description": "A street painted pink with colonial charm",
+    "history": "Doña Blanca's Patio, known as Pink Street, is a colonial architectural gem dating from the 16th century. Its pastel pink painted walls and perfectly preserved Spanish architecture make it one of the most photographed streets in Puerto Plata."
+  },
+  "ocean-world": {
+    "name": "Ocean World",
+    "description": "Marine park and aquarium in Puerto Plata",
+    "history": "Ocean World is one of the most important marine parks in the Caribbean, where visitors can interact with dolphins, sea lions and other marine species. It offers educational and entertainment experiences for the whole family."
+  },
+  "how_to_scan_qr": "How to scan a QR code?",
+  "open_camera": "Open the camera",
+  "open_camera_description": "Open your phone's camera app. If your device allows it, you can also use a QR scanning app.",
+  "focus_qr_code": "Focus the QR code",
+  "focus_qr_code_description": "Make sure the QR code is centered and visible on the screen.",
+  "tap_notification": "Tap the notification",
+  "tap_notification_description": "When the notification appears, tap it to open the link.",
+  "open_link_description": "The exclusive content will open in your browser.",
+  "useful_tips": "Useful tips",
+  "tip_1": "Make sure you have good lighting.",
+  "tip_2": "If it doesn't work, clean the camera and try again.",
+  "tip_3": "Some devices require a special QR app.",
+  "tip_4": "Allow camera access if requested.",
+  "understood": "Understood",
+  "scan_now": "Scan now",
+  "places_of_interest": {
+    "calle_sombrillas": {
+      "title": "Street of Umbrellas",
+      "description": "A beautiful street decorated with colorful umbrellas"
+    },
+    "calle_rosada": {
+      "title": "Pink Street",
+      "description": "A street painted pink with colonial charm"
+    },
+    "museo_ambar": {
+      "title": "Amber Museum",
+      "description": "Museum dedicated to Dominican amber and its history"
+    },
+    "letrero_puerto_plata": {
+      "title": "Puerto Plata Sign",
+      "description": "The iconic welcome sign to Puerto Plata"
+    },
+    "teleferico": {
+      "title": "Cable Car",
+      "description": "The cable car that goes to Isabel de Torres peak"
+    },
+    "fortaleza_san_felipe": {
+      "title": "San Felipe Fortress",
+      "description": "Historic 16th-century fortress"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "message": "We use cookies to improve your experience on our website. By continuing to browse, you accept our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learn_more": "Learn more",
+    "banner_title": "Cookies and Privacy",
+    "banner_description": "This website uses cookies to ensure you get the best experience on our website."
+  }
+}

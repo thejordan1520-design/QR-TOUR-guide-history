@@ -1,0 +1,46 @@
+{
+  "placeholders": {
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "age": "Edad",
+    "participants": "Número de participantes",
+    "special_requests": "Solicitudes especiales",
+    "emergency_contact": "Contacto de emergencia",
+    "emergency_phone": "Teléfono de emergencia"
+  },
+  "labels": {
+    "full_name": "Nombre Completo",
+    "email": "Email",
+    "phone": "Teléfono",
+    "age": "Edad",
+    "participants": "Participantes",
+    "reservation_date": "Fecha de Reservación",
+    "reservation_time": "Hora de Reservación",
+    "special_requests": "Solicitudes Especiales",
+    "emergency_contact": "Contacto de Emergencia",
+    "emergency_phone": "Teléfono de Emergencia"
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar Reserva",
+    "saving": "Guardando...",
+    "retry": "Reintentar"
+  },
+  "messages": {
+    "success": "¡Reservación confirmada! Te hemos enviado un email de confirmación.",
+    "connection_error": "Error de conexión. Por favor, verifica tu conexión a internet e inténtalo de nuevo.",
+    "duplicate_error": "Ya existe una reservación con estos datos. Por favor, verifica la información.",
+    "unknown_error": "Error al crear la reservación: {error}",
+    "loading_excursions": "Cargando excursiones...",
+    "form_title": "Reservar Excursión"
+  },
+  "validation": {
+    "required": "Este campo es requerido",
+    "invalid_email": "Por favor, ingresa un email válido",
+    "invalid_phone": "Por favor, ingresa un número de teléfono válido",
+    "min_participants": "Debe haber al menos 1 participante",
+    "max_participants": "Máximo 10 participantes"
+  }
+}
+

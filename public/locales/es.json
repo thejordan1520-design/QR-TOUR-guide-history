@@ -1,0 +1,318 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "subscribe": "Suscribirse",
+    "admin": "Administrador",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión"
+  },
+  "home": {
+    "hero_title": "Descubre Puerto Plata",
+    "hero_subtitle": "Con Códigos QR",
+    "hero_desc": "Explora la rica historia y cultura de Puerto Plata a través de códigos QR interactivos. Escucha audios informativos mientras visitas los lugares más emblemáticos de la ciudad.",
+    "start_tour": "Comenzar Tour",
+    "main_features": "Características Principales",
+    "main_features_desc": "Todo lo que necesitas para una experiencia turística completa y memorable",
+    "easy_access": "Acceso Fácil",
+    "easy_access_desc": "Simplemente escanea el código QR en cada ubicación para acceder instantáneamente a información detallada y audios informativos.",
+    "see_instructions": "Ver instrucciones",
+    "premium_audio": "Audios Premium",
+    "premium_audio_desc": "Disfruta de narraciones profesionales en múltiples idiomas con efectos de sonido y música de fondo para una experiencia inmersiva.",
+    "see_audio_library": "Ver biblioteca de audios",
+    "map_locations": "Mapa de Ubicaciones",
+    "map_locations_desc": "Navega por un mapa interactivo que muestra todos los puntos de interés con información detallada y rutas optimizadas.",
+    "see_qr_map": "Ver mapa QR",
+    "access_24h": "Acceso 24/7",
+    "access_24h_desc": "Accede a toda la información turística en cualquier momento del día, sin necesidad de guías físicos o horarios específicos.",
+    "popular_places": "Lugares Populares",
+    "popular_places_desc": "Los destinos más visitados y recomendados por nuestros usuarios",
+    "testimonials_title": "Lo que dicen nuestros usuarios",
+    "testimonials_desc": "Experiencias reales de viajeros que han usado nuestro sistema",
+    "stats_audios": "Audios Reproducidos",
+    "stats_countries": "Países",
+    "cta_title": "¿Listo para explorar Puerto Plata?",
+    "cta_desc": "Únete a miles de viajeros que ya han descubierto la magia de Puerto Plata con nuestra tecnología QR",
+    "cta_button": "Suscribirse Ahora",
+    "access_denied_title": "Acceso Restringido",
+    "access_denied_desc": "Esta función está disponible solo para suscriptores premium. Suscríbete para acceder a toda la biblioteca de audios.",
+    "subscribe_now": "Suscribirse Ahora",
+    "admin_panel": "Panel de Administrador",
+    "go_to_admin": "Ir al Panel de Administrador"
+  },
+  "footer": {
+    "description": "Descubre la historia y cultura de Puerto Plata a través de códigos QR interactivos. Tu guía turística digital personal.",
+    "contact": "Contacto",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Soporte Técnico",
+    "immediate_response": "Respuesta Inmediata",
+    "faq": "Preguntas Frecuentes",
+    "all_rights_reserved": "Todos los derechos reservados",
+    "terms_of_service": "Términos de Servicio",
+    "privacy_policy": "Política de Privacidad",
+    "admin_dashboard_button": "Panel de Administrador"
+  },
+  "faq": {
+    "how_to_use_qr": "¿Cómo usar los códigos QR?",
+    "how_to_use_qr_description": "Simplemente escanea el código QR con tu cámara del teléfono y accede instantáneamente a información detallada y audios informativos.",
+    "access_duration": "¿Cuánto tiempo dura el acceso?",
+    "access_duration_description": "El acceso depende de tu plan de suscripción. Los planes básicos tienen acceso limitado, mientras que los premium ofrecen acceso completo 24/7.",
+    "available_languages": "¿En qué idiomas están disponibles los audios?",
+    "available_languages_description": "Actualmente ofrecemos audios en español, inglés y francés. Estamos trabajando para agregar más idiomas.",
+    "technical_issues": "¿Qué hacer si tengo problemas técnicos?",
+    "technical_issues_description": "Si experimentas algún problema, contacta nuestro soporte técnico a través de WhatsApp o email. Respondemos en menos de 24 horas."
+  },
+  "audio": {
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "stop": "Detener",
+    "volume": "Volumen",
+    "speed": "Velocidad",
+    "loading": "Cargando...",
+    "error": "Error al cargar el audio"
+  },
+  "location": {
+    "viewMore": "Ver más",
+    "details": "Detalles",
+    "history": "Historia",
+    "services": "Servicios",
+    "directions": "Direcciones",
+    "share": "Compartir"
+  },
+  "subscribe": {
+    "title": "Suscribirse",
+    "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+    "experience": "Disfruta de una experiencia turística única con códigos QR interactivos",
+    "plans": "Planes",
+    "price": "Precios",
+    "usd": "USD",
+    "features": {
+      "unlimited": "Acceso Ilimitado",
+      "quality": "Audio de Alta Calidad",
+      "languages": "Múltiples Idiomas",
+      "support": "Soporte 24/7"
+    },
+    "mostPopular": "Más Popular",
+    "hours": "horas",
+    "selectedPlan": "Plan Seleccionado",
+    "selectPlan": "Seleccionar Plan",
+    "fullNameLabel": "Nombre Completo",
+    "fullNamePlaceholder": "Ingresa tu nombre completo",
+    "fullNameAutocomplete": "Nombre detectado automáticamente",
+    "qrCodeRequirement": "Necesitas visitar al menos 40 códigos QR para obtener el certificado",
+    "paymentInfoTitle": "Información de Pago",
+    "duration": {
+      "week": "1 semana",
+      "month": "1 mes"
+    },
+    "timeLeft": {
+      "remaining": "Tiempo restante",
+      "days": "día",
+      "hours": "hora",
+      "minutes": "minuto"
+    },
+    "paymentMethodsTitle": "Métodos de Pago",
+    "paymentMethods": {
+      "card": {
+        "title": "Tarjeta de Crédito",
+        "alert": "Procesamiento de tarjeta simulado"
+      },
+      "applePay": {
+        "title": "Apple Pay"
+      },
+      "paypal": {
+        "title": "PayPal"
+      }
+    },
+    "cardNumberLabel": "Número de Tarjeta",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expirationDateLabel": "Fecha de Vencimiento",
+    "expirationDatePlaceholder": "MM/AA",
+    "cvvLabel": "CVV",
+    "cvvPlaceholder": "123",
+    "cardholderNameLabel": "Nombre del Titular",
+    "cardholderNamePlaceholder": "Nombre como aparece en la tarjeta",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "cta": "Suscribirse Ahora",
+    "processingPayment": "Procesando Pago...",
+    "securityInfo": "Pago seguro con encriptación SSL",
+    "plansData": {
+      "basic": {
+        "name": "Acceso Básico",
+        "features": [
+          "Acceso completo por 24 horas",
+          "Todos los tours disponibles",
+          "Audio en alta calidad",
+          "Soporte por WhatsApp",
+          "Acceso desde cualquier dispositivo"
+        ]
+      },
+      "weekly": {
+        "name": "Acceso Semanal",
+        "features": [
+          "Acceso completo por 1 semana",
+          "Todos los tours disponibles",
+          "Audio en alta calidad",
+          "Soporte prioritario 24/7",
+          "Acceso desde cualquier dispositivo",
+          "Descargas para uso offline",
+          "Contenido exclusivo"
+        ]
+      },
+      "guide": {
+        "name": "Plan Guías Turísticos",
+        "features": [
+          "Acceso completo por 1 mes",
+          "Todos los tours disponibles",
+          "Audio en alta calidad",
+          "Soporte prioritario 24/7",
+          "Acceso desde cualquier dispositivo",
+          "Descargas para uso offline",
+          "Contenido exclusivo",
+          "Panel de guía turístico",
+          "Estadísticas de uso",
+          "Acceso a material educativo"
+        ]
+      },
+      "elite": {
+        "name": "Élite Ultra Anual",
+        "features": [
+          "Acceso total e ilimitado a todos los audios premium",
+          "Audios disponibles en múltiples idiomas",
+          "Planificación completa de rutas dentro de la app",
+          "Acceso a otros lugares turísticos: Zona Colonial, Samaná, Punta Cana, Bayahíbe, Cabarete",
+          "Sistema de alarmas inteligentes para regresar a tiempo al crucero o vuelo",
+          "Recordatorios por vibración, audio y notificación",
+          "Modo offline: descarga de mapas, audios e información sin conexión",
+          "Acceso a puntos turísticos secretos y zonas exclusivas",
+          "Datos de contacto de guías certificados recomendados",
+          "Botón de emergencia con geolocalización activa",
+          "Envío de ubicación a contactos de confianza o personal de asistencia",
+          "Soporte prioritario 24/7 con respuesta en menos de 1 hora",
+          "Descuentos en tiendas locales y comercios aliados",
+          "Acceso anticipado a nuevas rutas y contenido",
+          "Compatibilidad con el brazalete inteligente (audio, alarma y SOS desde la muñeca)"
+        ]
+      }
+    },
+    "paymentMethods": "Métodos de Pago",
+    "creditCard": "Tarjeta de Crédito/Débito",
+    "creditCardDescription": "Paga de forma segura con tu tarjeta Visa, Mastercard, American Express",
+    "paypal": "PayPal",
+    "paypalDescription": "Paga con tu cuenta PayPal de forma rápida y segura",
+    "security": "Seguridad y Confianza",
+    "instantAccess": "Acceso Instantáneo",
+    "instantAccessDescription": "Obtén acceso inmediato después del pago",
+    "securePayment": "Pago Seguro",
+    "securePaymentDescription": "Transacciones encriptadas con SSL",
+    "moneyBack": "Garantía de Devolución",
+    "moneyBackDescription": "30 días de garantía de devolución",
+    "faq": "Preguntas Frecuentes",
+    "faq1": {
+      "question": "¿Cómo funciona el acceso premium?",
+      "answer": "Una vez completado el pago, tendrás acceso inmediato a todo el contenido premium durante el período de tu suscripción."
+    },
+    "faq2": {
+      "question": "¿Puedo cancelar mi suscripción?",
+      "answer": "Sí, puedes cancelar tu suscripción en cualquier momento desde tu perfil de usuario."
+    },
+    "faq3": {
+      "question": "¿Qué métodos de pago aceptan?",
+      "answer": "Aceptamos tarjetas de crédito/débito (Visa, Mastercard, American Express) y PayPal."
+    }
+  },
+  "payment": {
+    "title": "Procesar Pago",
+    "planDetails": "Detalles del Plan",
+    "oneTime": "Pago único",
+    "features": "Características",
+    "moreFeatures": "características más",
+    "selectMethod": "Selecciona tu método de pago",
+    "processing": "Procesando...",
+    "pay": "Pagar",
+    "secure": "Pago seguro",
+    "testMode": "Modo de prueba",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "tryAgain": "Intentar de nuevo",
+    "success": {
+      "title": "¡Pago Exitoso!",
+      "message": "Tu pago ha sido procesado correctamente. Ya tienes acceso al contenido premium."
+    },
+    "error": {
+      "title": "Error en el Pago",
+      "message": "Hubo un problema al procesar tu pago. Por favor, intenta de nuevo."
+    },
+    "card": {
+      "title": "Tarjeta de Crédito/Débito",
+      "subtitle": "Paga con tu tarjeta",
+      "description": "Ingresa los datos de tu tarjeta de forma segura",
+      "number": "Número de tarjeta",
+      "expiry": "Fecha de vencimiento",
+      "cvc": "CVC"
+    },
+    "paypal": {
+      "title": "PayPal",
+      "subtitle": "Paga con PayPal",
+      "description": "Paga de forma rápida y segura con tu cuenta PayPal"
+    }
+  },
+  "map": {
+    "title": "Mapa de Códigos QR",
+    "subtitle": "Puerto Plata - Lugares Turísticos",
+    "categories": {
+      "title": "Categorías",
+      "all": "Todos",
+      "historic": "Histórico",
+      "cultural": "Cultural",
+      "recreational": "Recreativo",
+      "religious": "Religioso",
+      "natural": "Natural"
+    },
+    "additional_services": "Servicios Adicionales",
+  "services": {
+      "guide": "Guía Turístico",
+      "guide_request": "Solicitar guía físico",
+      "transport": "Transporte",
+      "transport_request": "Solicitar vehículo",
+      "call": "Llamar Directo"
+    },
+    "locations": "Ubicaciones",
+    "tip": "Haz clic en un pin para ver detalles",
+    "total_locations": "Total de ubicaciones",
+    "location": "Ubicación"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "personal_info": "Información Personal",
+    "subscription": "Suscripción",
+    "history": "Historial",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión",
+    "edit": "Editar",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+  "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "save": "Guardar",
+    "yes": "Sí",
+    "no": "No"
+  }
+} 

@@ -1,0 +1,382 @@
+{
+  "nav": {
+    "home": "Home",
+    "subscribe": "Subscribe",
+    "admin": "Admin",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "home": {
+    "hero_title": "Discover the History",
+    "hero_subtitle": "of Puerto Plata",
+    "hero_desc": "Explore the most emblematic places of Puerto Plata with our interactive audio guide. Scan QR codes and immerse yourself in the rich history of this beautiful Caribbean city.",
+    "start_tour": "Start Tour",
+    "main_features": "Main Features",
+    "main_features_desc": "Discover everything our platform has to offer you",
+    "easy_access": "Easy Access",
+    "easy_access_desc": "Scan QR codes to instantly access exclusive content",
+    "see_instructions": "See instructions",
+    "premium_audio": "Premium Audio",
+    "premium_audio_desc": "Professional narrations in multiple languages",
+    "see_audio_library": "See library",
+    "map_locations": "Location Map",
+    "map_locations_desc": "Find all points of interest on an interactive map",
+    "see_qr_map": "See QR map",
+    "access_24h": "24h Access",
+    "access_24h_desc": "Content available 24 hours a day",
+    "travel_alarm_title": "Travel Alarm",
+    "travel_alarm_desc": "Set alerts to not miss your return transportation",
+    "login_required_alarm": "Login to activate the alarm",
+    "activate": "Activate",
+    "alarm_time_limit": "Return time limit",
+    "search_flight_cruise": "Search my flight or cruise",
+    "alarm_distance": "Alert distance (km)",
+    "activate_alarm": "Activate Alarm",
+    "cancel": "Cancel",
+    "alarm_active": "Alarm Active",
+    "time_remaining": "Time remaining",
+    "edit": "Edit",
+    "popular_locations_title": "Popular Places",
+    "popular_locations_desc": "Discover the most visited and exciting places in Puerto Plata.",
+    "audio_button": "Audio",
+    "see_more": "See more",
+    "testimonials_title": "Testimonials",
+    "testimonials_desc": "What our users say about their experience.",
+    "audio_available": "Available Audios",
+    "countries_covered": "Countries Covered",
+    "join_community": "Join Our Community",
+    "discover_more_content": "Discover more places, audios and experiences. Join our community to access exclusive content.",
+    "subscribe_now": "Subscribe Now",
+    "audio_denied_message": "It seems you don't have a subscription plan. Please subscribe to access all features."
+  },
+  "footer": {
+    "description": "Discover the history and culture of Puerto Plata through interactive QR codes. Your personal digital tour guide.",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Technical Support",
+    "immediate_response": "Immediate Response",
+    "faq": "Frequently Asked Questions",
+    "all_rights_reserved": "All rights reserved",
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy"
+  },
+  "faq": {
+    "how_to_use_qr": "How to use QR codes?",
+    "how_to_use_qr_description": "Simply scan the QR code with your phone's camera and instantly access detailed information and informative audio.",
+    "access_duration": "How long does access last?",
+    "access_duration_description": "Access depends on your subscription plan. Basic plans have limited access, while premium plans offer full 24/7 access.",
+    "available_languages": "In what languages are the audios available?",
+    "available_languages_description": "We currently offer audios in Spanish, English and French. We are working to add more languages.",
+    "technical_issues": "What to do if I have technical problems?",
+    "technical_issues_description": "If you experience any problems, contact our technical support through WhatsApp or email. We respond in less than 24 hours.",
+    "how_long_access": "How long do I have access?",
+    "how_long_access_description": "Access lasts as long as your subscription is active. You can renew it at any time."
+  },
+  "audio": {
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "volume": "Volume",
+    "speed": "Speed",
+    "loading": "Loading...",
+    "error": "Error loading audio",
+    "premium_active": "Premium Access Active",
+    "limited_access": "Limited Access - Subscribe for full content"
+  },
+  "location": {
+    "viewMore": "View more",
+    "details": "Details",
+    "history": "History",
+    "services": "Services",
+    "directions": "Directions",
+    "share": "Share"
+  },
+  "subscribe": {
+    "title": "Subscribe",
+    "subtitle": "Choose the plan that best fits your needs",
+    "experience": "Enjoy a unique tourist experience with interactive QR codes",
+    "plans": "Plans",
+    "price": "Prices",
+    "usd": "USD",
+    "features": {
+      "unlimited": "Unlimited Access",
+      "quality": "High Quality Audio",
+      "languages": "Multiple Languages",
+      "support": "24/7 Support"
+    },
+    "mostPopular": "Most Popular",
+    "hours": "hours",
+    "selectedPlan": "Selected Plan",
+    "selectPlan": "Select Plan",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "fullNameAutocomplete": "Name detected automatically",
+    "qrCodeRequirement": "You need to visit at least 40 QR codes to get the certificate",
+    "paymentInfoTitle": "Payment Information",
+    "duration": {
+      "week": "1 week",
+      "month": "1 month"
+    },
+    "timeLeft": {
+      "remaining": "Time remaining",
+      "days": "day",
+      "hours": "hour",
+      "minutes": "minute"
+    },
+    "paymentMethodsTitle": "Payment Methods",
+    "paymentMethods": {
+      "card": {
+        "title": "Credit Card",
+        "alert": "Card processing simulated"
+      },
+      "applePay": {
+        "title": "Apple Pay"
+      },
+      "paypal": {
+        "title": "PayPal"
+      }
+    },
+    "cardNumberLabel": "Card Number",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expirationDateLabel": "Expiration Date",
+    "expirationDatePlaceholder": "MM/YY",
+    "cvvLabel": "CVV",
+    "cvvPlaceholder": "123",
+    "cardholderNameLabel": "Cardholder Name",
+    "cardholderNamePlaceholder": "Name as it appears on the card",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "cta": "Subscribe Now",
+    "processingPayment": "Processing Payment...",
+    "securityInfo": "Secure payment with SSL encryption",
+    "plansData": {
+      "basic": {
+        "name": "Basic Access",
+        "features": [
+          "Complete access for 24 hours",
+          "All tours available",
+          "High quality audio",
+          "WhatsApp support",
+          "Access from any device"
+        ]
+      },
+      "weekly": {
+        "name": "Weekly Access",
+        "features": [
+          "Complete access for 1 week",
+          "All tours available",
+          "High quality audio",
+          "Priority 24/7 support",
+          "Access from any device",
+          "Offline downloads",
+          "Exclusive content"
+        ]
+      },
+      "guide": {
+        "name": "Tour Guide Plan",
+        "features": [
+          "Complete access for 1 month",
+          "All tours available",
+          "High quality audio",
+          "Priority 24/7 support",
+          "Access from any device",
+          "Offline downloads",
+          "Exclusive content",
+          "Tour guide panel",
+          "Usage statistics",
+          "Access to educational material"
+        ]
+      },
+      "elite": {
+        "name": "Elite Ultra Annual",
+        "features": [
+          "Total and unlimited access to all premium audios",
+          "Audios available in multiple languages",
+          "Complete route planning within the app",
+          "Access to other tourist destinations: Colonial Zone, Samaná, Punta Cana, Bayahíbe, Cabarete",
+          "Smart alarm system to return on time to cruise or flight",
+          "Reminders by vibration, audio and notification",
+          "Offline mode: download maps, audios and information without connection",
+          "Access to secret tourist spots and exclusive areas",
+          "Contact information of recommended certified guides",
+          "Emergency button with active geolocation",
+          "Location sharing with trusted contacts or assistance personnel",
+          "Priority 24/7 support with response in less than 1 hour",
+          "Discounts at local stores and partner businesses",
+          "Early access to new routes and content",
+          "Smart bracelet compatibility (audio, alarm and SOS from wrist)"
+        ]
+      }
+    }
+  },
+  "map": {
+    "title": "QR Code Map",
+    "subtitle": "Puerto Plata - Tourist Locations",
+    "categories": {
+      "title": "Categories",
+      "all": "All",
+      "historic": "Historic",
+      "cultural": "Cultural",
+      "recreational": "Recreational",
+      "religious": "Religious",
+      "natural": "Natural"
+    },
+    "additional_services": "Additional Services",
+    "services": {
+      "guide": "Tour Guide",
+      "guide_request": "Request physical guide",
+      "transport": "Transport",
+      "transport_request": "Request vehicle",
+      "call": "Call Direct"
+    },
+    "locations": {
+      "fortaleza-san-felipe": {
+        "name": "Fortaleza San Felipe",
+        "description": "Historic 16th-century fortress",
+        "history": "Fortaleza San Felipe was built in the 16th century by the Spanish to protect Puerto Plata's port from pirate attacks. Its thick coral stone walls and strategically placed cannons made it an impenetrable defense for over three centuries."
+      },
+      "teleferico-puerto-plata": {
+        "name": "Puerto Plata Cable Car",
+        "description": "The only cable car in the Caribbean",
+        "history": "The Puerto Plata Cable Car is the only funicular in the Caribbean and offers breathtaking panoramic views of the city and the Atlantic Ocean. Ride up to Pico Isabel de Torres, where you'll find botanical gardens and a statue of Christ the Redeemer."
+      },
+      "calle-sombrillas": {
+        "name": "Umbrella Street",
+        "description": "Colorful artistic pedestrian street",
+        "history": "Umbrella Street is a vibrant art installation that transforms an ordinary street into a tunnel of colors. Hundreds of multicolored umbrellas hang above, creating a unique visual spectacle symbolizing the joy and creativity of the Dominican people."
+      },
+      "calle-rosada": {
+        "name": "Pink Street (Patio Doña Blanca)",
+        "description": "Historic pink colonial street",
+        "history": "Patio Doña Blanca, known as Pink Street, is a colonial architectural gem dating back to the 16th century. Its pastel pink walls and perfectly preserved Spanish architecture make it one of the most photographed streets in Puerto Plata."
+      },
+      "letrero-puerto-plata": {
+        "name": "Puerto Plata Sign",
+        "description": "Iconic sign on the boardwalk",
+        "history": "The iconic Puerto Plata sign on the boardwalk has become the city's most recognizable symbol. Installed as part of the boardwalk's renovation, it represents local pride and is the favorite meeting point for tourists and locals to capture the perfect memory."
+      },
+      "museo-ambar": {
+        "name": "Amber Museum",
+        "description": "Prehistoric treasures in amber",
+        "history": "The Amber Museum houses the world's most important collection of Dominican amber. These fossilized resins, 15-40 million years old, contain insects, plants, and small animals perfectly preserved, offering a unique window into the island's prehistoric past."
+      },
+      "ronfactory": {
+        "name": "Brugal Rum Factory",
+        "description": "Immerse yourself in the history and flavor of one of the Caribbean's most iconic distilleries.",
+        "history": "The Brugal Rum Factory is one of the Caribbean's most iconic distilleries, famous for its rum and industrial history."
+      },
+      "larimarr": {
+        "name": "Larimar Museum",
+        "description": "Admire the unique blue stone of the Dominican Republic and its fascinating geological history.",
+        "history": "The Larimar Museum showcases the exclusive blue semi-precious stone of the Dominican Republic, displaying its history and extraction."
+      },
+      "hermanasmirabal": {
+        "name": "Mirabal Sisters Monument",
+        "description": "A tribute to the heroines of freedom, a symbol of courage and hope for a nation.",
+        "history": "The monument honors the Mirabal Sisters, a symbol of the fight for freedom and human rights in the Dominican Republic."
+      },
+      "neptuno": {
+        "name": "Neptune Statue on the Boardwalk",
+        "description": "Iconic seaside sculpture, symbol of the city's relationship with the ocean.",
+        "history": "The Neptune statue is an icon of Puerto Plata's boardwalk, representing the city's connection to the sea."
+      },
+      "catedralsanfelipe": {
+        "name": "San Felipe Cathedral",
+        "description": "Majestic colonial architectural work, witness to the faith and history of Puerto Plata.",
+        "history": "San Felipe Cathedral is an example of colonial religious architecture and a central point of the city."
+      },
+      "cristoredentor": {
+        "name": "Christ the Redeemer",
+        "description": "Iconic monument on Pico Isabel de Torres, with spectacular views.",
+        "history": "Christ the Redeemer crowns Pico Isabel de Torres and is one of Puerto Plata's most recognized monuments."
+      },
+      "calledelacometas": {
+        "name": "Kite Street",
+        "description": "Colorful urban art and the tradition of flying kites at local festivals.",
+        "history": "Kite Street is famous for its colorful urban art and the tradition of flying kites during local festivals."
+      },
+      "parque-central": {
+        "name": "Central Park of Puerto Plata",
+        "description": "The heart of the city, meeting point and cultural events.",
+        "history": "Central Park is the nerve center of Puerto Plata, surrounded by colonial architecture and local life."
+      },
+      "museo-gregorio-luperon": {
+        "name": "Gregorio Luperón Museum",
+        "description": "Museum dedicated to national hero Gregorio Luperón.",
+        "history": "This museum honors the life and legacy of Gregorio Luperón, a key figure in Dominican history."
+      },
+      "ocean-world": {
+        "name": "Ocean World Water Park",
+        "description": "Water park and marina with shows and activities for the whole family.",
+        "history": "Ocean World is one of the most complete water parks in the Caribbean, ideal for family enjoyment."
+      }
+    },
+    "tip": "Click on a pin to see details",
+    "total_locations": "Total locations",
+    "location": "Location"
+  },
+  "profile": {
+    "title": "My Profile",
+    "personal_info": "Personal Information",
+    "subscription": "Subscription",
+    "history": "History",
+    "settings": "Settings",
+    "logout": "Logout",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "profile_login_required": "You must log in to view your profile."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "save": "Save",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "brand": "QR Tour Guide History",
+  "biblioteca_audios_title": "Audio Library",
+  "biblioteca_audios_description": "Explore our complete collection of audio guides in multiple languages",
+  "not_found_page": {
+    "title": "Page not found",
+    "subtitle": "We couldn't find the page you're looking for.",
+    "description": "The URL entered does not exist or was removed.",
+    "back_to_home": "Back to home",
+    "get_access": "Request access",
+    "help_title": "Need help?",
+    "help_point_1": "Check the URL address.",
+    "help_point_2": "Return to the main page.",
+    "help_point_3": "Contact support if the problem persists.",
+    "support_whatsapp": "WhatsApp support"
+  },
+  "description_title": "Description",
+  "history_title": "History",
+  "audio_guide_title": "Audio guide",
+  "history_of": "History of",
+  "duration": "Duration",
+  "demoLimit": "Demo limit",
+  "fullAudio": "Full audio",
+  "audioInDifferentLanguages": "Audio in Different Languages",
+  "retroceder10s": "Rewind 10s",
+  "avanzar10s": "Forward 10s",
+  "velocidad": "Speed",
+  "demoTimeLimitReached": "Demo time limit reached",
+  "subscribeToListenFullAudio": "Subscribe to listen to the full audio",
+  "getPremiumAccess": "Get Premium Access"
+} 

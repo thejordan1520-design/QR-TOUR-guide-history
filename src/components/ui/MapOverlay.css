@@ -1,0 +1,7 @@
+.mapoverlay-fadein {
+  animation: mapoverlay-fadein 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+@keyframes mapoverlay-fadein {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+} 

@@ -1,0 +1,382 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "subscribe": "Suscribirse",
+    "admin": "Administrador",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "profile": "Perfil"
+  },
+  "home": {
+    "hero_title": "Descubre la Historia",
+    "hero_subtitle": "de Puerto Plata",
+    "hero_desc": "Explora los lugares más emblemáticos de Puerto Plata con nuestra guía de audio interactiva. Escanea códigos QR y sumérgete en la rica historia de esta hermosa ciudad caribeña.",
+    "start_tour": "Comenzar Tour",
+    "main_features": "Características Principales",
+    "main_features_desc": "Descubre todo lo que nuestra plataforma tiene para ofrecerte",
+    "easy_access": "Acceso Fácil",
+    "easy_access_desc": "Escanea códigos QR para acceder instantáneamente a contenido exclusivo",
+    "see_instructions": "Ver instrucciones",
+    "premium_audio": "Audios Premium",
+    "premium_audio_desc": "Narraciones profesionales en múltiples idiomas",
+    "see_audio_library": "Ver biblioteca",
+    "map_locations": "Mapa de Ubicaciones",
+    "map_locations_desc": "Encuentra todos los puntos de interés en un mapa interactivo",
+    "see_qr_map": "Ver mapa QR",
+    "access_24h": "Acceso 24h",
+    "access_24h_desc": "Contenido disponible las 24 horas del día",
+    "travel_alarm_title": "Alarma de Viaje",
+    "travel_alarm_desc": "Configura alertas para no perder tu transporte de regreso",
+    "login_required_alarm": "Inicia sesión para activar la alarma",
+    "activate": "Activar",
+    "alarm_time_limit": "Hora límite para regresar",
+    "search_flight_cruise": "Buscar mi vuelo o crucero",
+    "alarm_distance": "Distancia para alerta (km)",
+    "activate_alarm": "Activar Alarma",
+    "cancel": "Cancelar",
+    "alarm_active": "Alarma Activa",
+    "time_remaining": "Tiempo restante",
+    "edit": "Editar",
+    "popular_locations_title": "Lugares Populares",
+    "popular_locations_desc": "Descubre los lugares más visitados y emocionantes de Puerto Plata.",
+    "audio_button": "Audio",
+    "see_more": "Ver más",
+    "testimonials_title": "Testimonios",
+    "testimonials_desc": "Lo que dicen nuestros usuarios sobre su experiencia.",
+    "audio_available": "Audios Disponibles",
+    "countries_covered": "Países Cubiertos",
+    "join_community": "Únete a Nuestra Comunidad",
+    "discover_more_content": "Descubre más lugares, audios y experiencias. Únete a nuestra comunidad para acceder a contenido exclusivo.",
+    "subscribe_now": "Suscribirse Ahora",
+    "audio_denied_message": "Parece que no tienes un plan de suscripción. Por favor, suscríbete para acceder a todas las funciones."
+  },
+  "footer": {
+    "description": "Descubre la historia y cultura de Puerto Plata a través de códigos QR interactivos. Tu guía turística digital personal.",
+    "contact": "Contacto",
+    "whatsapp": "WhatsApp",
+    "email": "info@qrtourguidehistory.com",
+    "support": "Soporte Técnico",
+    "immediate_response": "Respuesta Inmediata",
+    "faq": "Preguntas Frecuentes",
+    "all_rights_reserved": "Todos los derechos reservados",
+    "terms_of_service": "Términos de Servicio",
+    "privacy_policy": "Política de Privacidad"
+  },
+  "faq": {
+    "how_to_use_qr": "¿Cómo usar los códigos QR?",
+    "how_to_use_qr_description": "Simplemente escanea el código QR con tu cámara del teléfono y accede instantáneamente a información detallada y audios informativos.",
+    "access_duration": "¿Cuánto tiempo dura el acceso?",
+    "access_duration_description": "El acceso depende de tu plan de suscripción. Los planes básicos tienen acceso limitado, mientras que los premium ofrecen acceso completo 24/7.",
+    "available_languages": "¿En qué idiomas están disponibles los audios?",
+    "available_languages_description": "Actualmente ofrecemos audios en español, inglés y francés. Estamos trabajando para agregar más idiomas.",
+    "technical_issues": "¿Qué hacer si tengo problemas técnicos?",
+    "technical_issues_description": "Si experimentas algún problema, contacta nuestro soporte técnico a través de WhatsApp o email. Respondemos en menos de 24 horas.",
+    "how_long_access": "¿Cuánto tiempo tengo acceso?",
+    "how_long_access_description": "El acceso dura el tiempo de tu suscripción activa. Puedes renovarla en cualquier momento."
+  },
+  "audio": {
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "stop": "Detener",
+    "volume": "Volumen",
+    "speed": "Velocidad",
+    "loading": "Cargando...",
+    "error": "Error al cargar el audio",
+    "premium_active": "Acceso Premium Activo",
+    "limited_access": "Acceso Limitado - Suscríbete para contenido completo"
+  },
+  "location": {
+    "viewMore": "Ver más",
+    "details": "Detalles",
+    "history": "Historia",
+    "services": "Servicios",
+    "directions": "Direcciones",
+    "share": "Compartir"
+  },
+  "subscribe": {
+    "title": "Suscribirse",
+    "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+    "experience": "Disfruta de una experiencia turística única con códigos QR interactivos",
+    "plans": "Planes",
+    "price": "Precios",
+    "usd": "USD",
+    "features": {
+      "unlimited": "Acceso Ilimitado",
+      "quality": "Audio de Alta Calidad",
+      "languages": "Múltiples Idiomas",
+      "support": "Soporte 24/7"
+    },
+    "mostPopular": "Más Popular",
+    "hours": "horas",
+    "selectedPlan": "Plan Seleccionado",
+    "selectPlan": "Seleccionar Plan",
+    "fullNameLabel": "Nombre Completo",
+    "fullNamePlaceholder": "Ingresa tu nombre completo",
+    "fullNameAutocomplete": "Nombre detectado automáticamente",
+    "qrCodeRequirement": "Necesitas visitar al menos 40 códigos QR para obtener el certificado",
+    "paymentInfoTitle": "Información de Pago",
+    "duration": {
+      "week": "1 semana",
+      "month": "1 mes"
+    },
+    "timeLeft": {
+      "remaining": "Tiempo restante",
+      "days": "día",
+      "hours": "hora",
+      "minutes": "minuto"
+    },
+    "paymentMethodsTitle": "Métodos de Pago",
+    "paymentMethods": {
+      "card": {
+        "title": "Tarjeta de Crédito",
+        "alert": "Procesamiento de tarjeta simulado"
+      },
+      "applePay": {
+        "title": "Apple Pay"
+      },
+      "paypal": {
+        "title": "PayPal"
+      }
+    },
+    "cardNumberLabel": "Número de Tarjeta",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expirationDateLabel": "Fecha de Vencimiento",
+    "expirationDatePlaceholder": "MM/AA",
+    "cvvLabel": "CVV",
+    "cvvPlaceholder": "123",
+    "cardholderNameLabel": "Nombre del Titular",
+    "cardholderNamePlaceholder": "Nombre como aparece en la tarjeta",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "cta": "Suscribirse Ahora",
+    "processingPayment": "Procesando Pago...",
+    "securityInfo": "Pago seguro con encriptación SSL",
+    "plansData": {
+      "basic": {
+        "name": "Acceso Básico",
+        "features": [
+          "Acceso completo por 24 horas",
+          "Todos los tours disponibles",
+          "Audio en alta calidad",
+          "Soporte por WhatsApp",
+          "Acceso desde cualquier dispositivo"
+        ]
+      },
+      "weekly": {
+        "name": "Acceso Semanal",
+        "features": [
+          "Acceso completo por 1 semana",
+          "Todos los tours disponibles",
+          "Audio en alta calidad",
+          "Soporte prioritario 24/7",
+          "Acceso desde cualquier dispositivo",
+          "Descargas para uso offline",
+          "Contenido exclusivo"
+        ]
+      },
+      "guide": {
+        "name": "Plan Guías Turísticos",
+        "features": [
+          "Acceso completo por 1 mes",
+          "Todos los tours disponibles",
+          "Audio en alta calidad",
+          "Soporte prioritario 24/7",
+          "Acceso desde cualquier dispositivo",
+          "Descargas para uso offline",
+          "Contenido exclusivo",
+          "Panel de guía turístico",
+          "Estadísticas de uso",
+          "Acceso a material educativo"
+        ]
+      },
+      "elite": {
+        "name": "Élite Ultra Anual",
+        "features": [
+          "Acceso total e ilimitado a todos los audios premium",
+          "Audios disponibles en múltiples idiomas",
+          "Planificación completa de rutas dentro de la app",
+          "Acceso a otros lugares turísticos: Zona Colonial, Samaná, Punta Cana, Bayahíbe, Cabarete",
+          "Sistema de alarmas inteligentes para regresar a tiempo al crucero o vuelo",
+          "Recordatorios por vibración, audio y notificación",
+          "Modo offline: descarga de mapas, audios e información sin conexión",
+          "Acceso a puntos turísticos secretos y zonas exclusivas",
+          "Datos de contacto de guías certificados recomendados",
+          "Botón de emergencia con geolocalización activa",
+          "Envío de ubicación a contactos de confianza o personal de asistencia",
+          "Soporte prioritario 24/7 con respuesta en menos de 1 hora",
+          "Descuentos en tiendas locales y comercios aliados",
+          "Acceso anticipado a nuevas rutas y contenido",
+          "Compatibilidad con el brazalete inteligente (audio, alarma y SOS desde la muñeca)"
+        ]
+      }
+    }
+  },
+  "map": {
+    "title": "Mapa de Códigos QR",
+    "subtitle": "Puerto Plata - Lugares Turísticos",
+    "categories": {
+      "title": "Categorías",
+      "all": "Todos",
+      "historic": "Histórico",
+      "cultural": "Cultural",
+      "recreational": "Recreativo",
+      "religious": "Religioso",
+      "natural": "Natural"
+    },
+    "additional_services": "Servicios Adicionales",
+    "services": {
+      "guide": "Guía Turístico",
+      "guide_request": "Solicitar guía físico",
+      "transport": "Transporte",
+      "transport_request": "Solicitar vehículo",
+      "call": "Llamar Directo"
+    },
+    "locations": {
+      "fortaleza-san-felipe": {
+        "name": "Fortaleza San Felipe",
+        "description": "Histórica fortaleza del siglo XVI",
+        "history": "La Fortaleza San Felipe fue construida en el siglo XVI por los españoles para proteger el puerto de Puerto Plata de los ataques piratas. Sus gruesos muros de piedra coral y sus cañones estratégicamente ubicados la convirtieron en una defensa impenetrable durante más de tres siglos."
+      },
+      "teleferico-puerto-plata": {
+        "name": "Teleférico de Puerto Plata",
+        "description": "El único teleférico del Caribe",
+        "history": "El Teleférico de Puerto Plata es el único funicular del Caribe y ofrece vistas panorámicas impresionantes de la ciudad y el océano Atlántico. Sube al Pico Isabel de Torres, donde encontrarás jardines botánicos y una estatua del Cristo Redentor."
+      },
+      "calle-sombrillas": {
+        "name": "Calle de las Sombrillas",
+        "description": "Colorida calle peatonal artística",
+        "history": "La Calle de las Sombrillas es una vibrante instalación artística que transforma una calle ordinaria en un túnel de colores. Cientos de sombrillas multicolores cuelgan sobre la calle, creando un espectáculo visual único que simboliza la alegría y creatividad del pueblo dominicano."
+      },
+      "calle-rosada": {
+        "name": "Calle Rosada (Patio Doña Blanca)",
+        "description": "Histórica calle colonial rosada",
+        "history": "El Patio de Doña Blanca, conocido como la Calle Rosada, es una joya arquitectónica colonial que data del siglo XVI. Sus paredes pintadas de rosa pastel y su arquitectura española perfectamente conservada la convierten en una de las calles más fotografiadas de Puerto Plata."
+      },
+      "letrero-puerto-plata": {
+        "name": "Letrero Puerto Plata",
+        "description": "Icónico letrero del malecón",
+        "history": "El icónico letrero de Puerto Plata en el malecón se ha convertido en el símbolo más reconocible de la ciudad. Instalado como parte de la renovación del malecón, representa el orgullo local y es el punto de encuentro favorito de turistas y locales para capturar el recuerdo perfecto."
+      },
+      "museo-ambar": {
+        "name": "Museo del Ámbar",
+        "description": "Tesoros prehistóricos en ámbar",
+        "history": "El Museo del Ámbar alberga la colección más importante de ámbar dominicano del mundo. Estas resinas fosilizadas de 15-40 millones de años contienen insectos, plantas y pequeños animales perfectamente preservados, ofreciendo una ventana única al pasado prehistórico de la isla."
+      },
+      "ronfactory": {
+        "name": "Fábrica de Ron Brugal",
+        "description": "Sumérgete en la historia y el sabor de una de las destilerías más emblemáticas del Caribe.",
+        "history": "La fábrica de Ron Brugal es una de las destilerías más emblemáticas del Caribe, famosa por su ron y su historia industrial."
+      },
+      "larimarr": {
+        "name": "Museo del Larimar",
+        "description": "Admira la piedra azul única de República Dominicana y su fascinante historia geológica.",
+        "history": "El Museo del Larimar exhibe la piedra semipreciosa azul exclusiva de República Dominicana, mostrando su historia y extracción."
+      },
+      "hermanasmirabal": {
+        "name": "Monumento Hermanas Mirabal",
+        "description": "Un homenaje a las heroínas de la libertad, símbolo de coraje y esperanza para toda una nación.",
+        "history": "El monumento honra a las Hermanas Mirabal, símbolo de la lucha por la libertad y los derechos humanos en República Dominicana."
+      },
+      "neptuno": {
+        "name": "Estatua Neptuno en el Malecón",
+        "description": "Escultura icónica frente al mar, símbolo de la relación de la ciudad con el océano.",
+        "history": "La estatua de Neptuno es un ícono del malecón de Puerto Plata, representando la relación de la ciudad con el mar."
+      },
+      "catedralsanfelipe": {
+        "name": "Catedral San Felipe",
+        "description": "Majestuosa obra de la arquitectura colonial, testigo de la fe y la historia de Puerto Plata.",
+        "history": "La Catedral San Felipe es un ejemplo de la arquitectura colonial religiosa y un punto central de la ciudad."
+      },
+      "cristoredentor": {
+        "name": "Cristo Redentor",
+        "description": "Monumento emblemático en el Pico Isabel de Torres, con vistas espectaculares.",
+        "history": "El Cristo Redentor corona el Pico Isabel de Torres y es uno de los monumentos más reconocidos de Puerto Plata."
+      },
+      "calledelacometas": {
+        "name": "Calle de las Cometas Voladoras",
+        "description": "Colorido arte urbano y tradición de volar cometas en festividades locales.",
+        "history": "La Calle de las Cometas es famosa por su colorido arte urbano y la tradición de volar cometas en festividades locales."
+      },
+      "parque-central": {
+        "name": "Parque Central de Puerto Plata",
+        "description": "El corazón de la ciudad, punto de encuentro y eventos culturales.",
+        "history": "El Parque Central es el punto neurálgico de Puerto Plata, rodeado de arquitectura colonial y vida local."
+      },
+      "museo-gregorio-luperon": {
+        "name": "Museo Gregorio Luperón",
+        "description": "Museo dedicado al héroe nacional Gregorio Luperón.",
+        "history": "Este museo honra la vida y legado de Gregorio Luperón, figura clave en la historia dominicana."
+      },
+      "ocean-world": {
+        "name": "Ocean World Water Park",
+        "description": "Parque acuático y marina con espectáculos y actividades para toda la familia.",
+        "history": "Ocean World es uno de los parques acuáticos más completos del Caribe, ideal para disfrutar en familia."
+      }
+    },
+    "tip": "Haz clic en un pin para ver detalles",
+    "total_locations": "Total de ubicaciones",
+    "location": "Ubicación"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "personal_info": "Información Personal",
+    "subscription": "Suscripción",
+    "history": "Historial",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión",
+    "edit": "Editar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "login_required": "Debes iniciar sesión para ver tu perfil."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "save": "Guardar",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "brand": "QR Tour Guide History",
+  "biblioteca_audios_title": "Biblioteca de Audios",
+  "biblioteca_audios_description": "Explora nuestra colección completa de audios guía en múltiples idiomas",
+  "not_found_page": {
+    "title": "Página no encontrada",
+    "subtitle": "No pudimos encontrar la página que buscas.",
+    "description": "La URL ingresada no existe o fue removida.",
+    "back_to_home": "Volver al inicio",
+    "get_access": "Solicitar acceso",
+    "help_title": "¿Necesitas ayuda?",
+    "help_point_1": "Verifica la dirección URL.",
+    "help_point_2": "Regresa a la página principal.",
+    "help_point_3": "Contacta soporte si el problema persiste.",
+    "support_whatsapp": "Soporte por WhatsApp"
+  },
+  "description_title": "Descripción",
+  "history_title": "Historia",
+  "audio_guide_title": "Guía de audio",
+  "history_of": "Historia de",
+  "duration": "Duración",
+  "demoLimit": "Límite demo",
+  "fullAudio": "Audio completo",
+  "audioInDifferentLanguages": "Audio en Diferentes Idiomas",
+  "retroceder10s": "Retroceder 10s",
+  "avanzar10s": "Avanzar 10s",
+  "velocidad": "Velocidad",
+  "demoTimeLimitReached": "Límite de tiempo demo alcanzado",
+  "subscribeToListenFullAudio": "Suscríbete para escuchar el audio completo",
+  "getPremiumAccess": "Obtener Acceso Premium"
+} 
